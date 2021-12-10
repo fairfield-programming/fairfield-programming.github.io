@@ -4,17 +4,49 @@
 
 body {
   padding: 0px;
+  padding-top: 60px;
   margin: 0px;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  padding: 25px;
+  overflow: hidden;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.inverted {
+  color: white;
+}
+
+.max-width {
+  width: 100%;
+}
+
+.scale {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: -1;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.darken {
+  filter: brightness(0.15) opacity(0.6) drop-shadow(0px 0px #0F006C);
 }
 
 main {
   max-width: 800px;
-  margin: 40px auto;
+  margin: 20px auto;
   padding: 25px;
-  background: #fff;
 }
 main h1 {
-  margin-top: 80px;
   position: relative;
   font-weight: 400;
 }

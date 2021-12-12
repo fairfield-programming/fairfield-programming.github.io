@@ -1,0 +1,54 @@
+header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 60px;
+  padding: 0px;
+  background: #fff;
+  box-shadow: 0px 0px 5px #ddd;
+  z-index: 90;
+}
+header .size {
+  max-width: 1000px;
+  margin: 0px auto;
+  width: 100%;
+  height: 60px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+header .size td {
+  padding: 0px;
+}
+header .size a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  padding: 0px 20px;
+  color: #0F006C;
+  text-decoration: none;
+  font-weight: 100;
+  transition: transform 0.2s;
+}
+header .size a:hover {
+  transform: scale(1.05);
+}
+header .size .left {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-start;
+  height: 60px;
+  align-items: center;
+}
+header .size .right {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  align-items: center;
+}
+
+/*# sourceMappingURL=/header.a37d0fbf.css.map */

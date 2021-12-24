@@ -1,0 +1,108 @@
+*
+    outline: none
+
+main
+    position: fixed
+    display: flex
+    left: 0px
+    right: 0px
+    top: 60px
+    bottom: 0px
+    align-items: center
+    justify-content: center
+    flex-direction: column
+
+    .background
+        position: fixed
+        fill: #f8f8f8
+        width: 100%
+        height: 500px
+        left: 0px
+        right: 0px
+        bottom: 0px
+        z-index: 0
+        transform: rotateX(180deg)
+
+    form
+        background: #fff
+        border-radius: 5px
+        border: 1px solid #ddd
+        margin-bottom: 40px
+        box-sizing: content-box
+        z-index: 1
+
+        img
+            width: 200px
+            margin: 0px 110px
+
+        h1
+            text-align: center
+            font-family: sans-serif
+            font-weight: 600
+            color: #000
+            margin: 0px
+            margin-top: 30px
+            padding: 0px
+
+        p
+            box-sizing: border-box
+            width: 420px
+            padding: 5px
+            line-height: 1.6
+            margin: 10px
+            text-align: justify
+            font-size: 12pt
+
+        .input
+            width: 420px
+            margin: 10px
+            padding: 0px
+            position: relative
+            margin: 20px 10px
+
+            label
+                background: #fff
+                color: #777
+                letter-spacing: 0.3px
+                font-family: sans-serif
+                font-weight: 300
+                font-size: 10pt
+                padding: 0px 10px
+
+            input
+                box-sizing: border-box
+                width: 100%
+                height: 100%
+                padding: 10px
+                border-radius: 5px
+                border: 1px solid #ddd
+                font-size: 12pt
+                font-weight: 100
+
+        input[type="submit"]
+            width: 420px
+            margin: 10px
+            padding: 14px
+            font-size: 16pt
+            background: #1865f2
+            color: #fff
+            border: 2px solid #1865f2
+            border-radius: 5px
+            font-weight: 600
+
+            &:hover
+                cursor: pointer
+                background: #fff
+                color: #1865f2
+
+        hr
+            background: #ddd
+            border: 0px
+            height: 1px
+            margin: 30px 0px
+
+    p
+        font-family: sans-serif
+        font-weight: 100
+        font-size: 10pt
+        color: #333

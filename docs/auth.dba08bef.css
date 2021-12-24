@@ -54,6 +54,18 @@ main form p {
   text-align: justify;
   font-size: 12pt;
 }
+main form .password button {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+}
+main form .password button:hover {
+  cursor: pointer;
+}
 main form .input {
   width: 420px;
   margin: 10px;

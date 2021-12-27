@@ -21,6 +21,22 @@
       <script>
         var passwordVisible = false;
 
+        window.onload = function () {
+          var xmlHttp = new XMLHttpRequest();
+          xmlHttp.open(
+            "GET",
+            "https://fairfield-programming.herokuapp.com/joke",
+            true
+          );
+          xmlHttp.send(null);
+
+          console.log(xmlHttp);
+
+          xmlHttp.onload = function (res) {
+            document.getElementById("joke").innerHTML = xmlHttp.response;
+          };
+        };
+
         function togglePasswordVisibility() {
           var passwordInput = document.getElementById("password");
           var passwordVisibleToggle = document.getElementById(
@@ -78,7 +94,7 @@
           class="layer2 shape-fill"
         ></path>
       </svg>
-      <p class="joke">*</p>
+      <p id="joke" class="joke">*</p>
     </main>
   </body>
 </html>

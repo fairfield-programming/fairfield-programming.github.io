@@ -2,21 +2,6 @@
   outline: none;
 }
 
-@media only screen and (max-width: 600px) {
-  form {
-    position: fixed;
-    border: none;
-    border-radius: 0px;
-    left: 0px;
-    top: 60px;
-    right: 0px;
-    bottom: 0px;
-    width: 100vw;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    box-sizing: border-box;
-  }
-}
 main {
   position: fixed;
   display: flex;
@@ -136,6 +121,22 @@ main p {
   font-size: 10pt;
   color: #333;
   z-index: 4;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    position: fixed;
+    border: none;
+    border-radius: 0px;
+    left: 0px;
+    top: 60px;
+    right: 0px;
+    bottom: 0px;
+    width: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
 }
 
 /*# sourceMappingURL=/auth.dba08bef.css.map */

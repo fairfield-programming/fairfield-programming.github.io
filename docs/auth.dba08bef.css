@@ -35,6 +35,7 @@ main h2 {
 }
 main p {
   font-size: 18px;
+  text-align: left;
   font-weight: 300;
   color: #444;
   line-height: 1.6;

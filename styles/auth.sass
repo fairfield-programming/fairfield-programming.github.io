@@ -1,139 +1,116 @@
-*
-    outline: none
+$linkColor: #1865f2
 
 main
     position: fixed
-    display: flex
     left: 0px
     right: 0px
     top: 60px
     bottom: 0px
+    z-index: 95
+    display: flex
     align-items: center
     justify-content: center
-    flex-direction: column
 
-    .background
+    svg
         position: fixed
-        fill: #f8f8f8
-        width: 100%
-        height: 500px
-        left: 0px
-        right: 0px
+        z-index: 90
         bottom: 0px
-        z-index: 0
         transform: rotateX(180deg)
+        fill: #f8f8f8
+        border-top: 300px solid #f8f8f8
 
-    form
-        width: 420px
-        background: #fff
-        border-radius: 5px
-        border: 1px solid #ddd
-        margin-bottom: 40px
-        box-sizing: border-box
-        z-index: 1
+    h2, p, label
+        font-family: sans-serif
 
-        img
-            width: 200px
-            margin: 0px 110px
+    h2
+        font-size: 28px
 
-        h1
-            text-align: center
-            font-family: sans-serif
-            font-weight: 600
-            color: #000
-            margin: 0px
-            margin-top: 30px
-            padding: 0px
+    p
+        font-size: 18px
+        // text-align: justify
+        font-weight: 300
+        color: #444
+        line-height: 1.6
 
-        p
-            box-sizing: border-box
-            padding: 5px
-            line-height: 1.6
-            margin: 10px
-            text-align: justify
-            font-size: 12pt
+    section
+        position: relative
+        max-width: 500px
+        margin: 0px auto
 
-        .password
+        label
+            display: inline-block
+            width: 100%
+            margin-top: 18px
+            margin-bottom: 4px
+            font-size: 18px
+            font-weight: 300
+            color: #777
 
-            button
-                position: absolute
-                right: 0px
-                bottom: 0px
-                width: 40px
-                height: 40px
-                background: rgba(0, 0, 0, 0)
-                border: none
-
-                &:hover
-                    cursor: pointer
-
-        .input
-            width: calc(100% - 20px)
-            box-sizing: border-box
-            // margin: 10px
-            padding: 0px
-            position: relative
-            margin: 20px 10px
-
-            label
-                background: #fff
-                color: #777
-                letter-spacing: 0.3px
-                font-family: sans-serif
-                font-weight: 300
-                font-size: 10pt
-                padding: 0px 10px
-
-            input
-                box-sizing: border-box
-                width: 100%
-                height: 100%
-                padding: 10px
-                border-radius: 5px
-                border: 1px solid #ddd
-                font-size: 12pt
-                font-weight: 100
-
-        input[type="submit"]
-            box-sizing: border-box
-            width: calc(100% - 20px)
-            margin: 10px
-            padding: 14px
-            font-size: 16pt
-            background: #1865f2
-            color: #fff
-            border: 2px solid #1865f2
+        input
+            display: inline-block
+            width: calc(100% - 30px)
+            padding: 15px
             border-radius: 5px
-            font-weight: 600
+            border: 1px solid #ddd
+            font-size: 16px
+
+        i
+            position: absolute
+            bottom: 16px
+            right: 14px
+            font-size: 34px
+            color: #999
 
             &:hover
                 cursor: pointer
-                background: #fff
-                color: #1865f2
+                color: #444
 
-        hr
-            background: #ddd
-            border: 0px
-            height: 1px
-            margin: 30px 0px
+    .box
+        max-width: 450px
+        // height: 500px
+        padding: 25px
+        background: #fff
+        border: 1px solid #ddd
+        border-radius: 5px
+        z-index: 95
 
-    p
-        font-family: sans-serif
-        font-weight: 100
-        font-size: 10pt
-        color: #333
-        z-index: 4
-
-@media only screen and (max-width: 600px)
-    form
-        position: fixed
+    button
+        width: 100%
+        padding: 20px
+        background: inherit
+        // background: linear-gradient(135deg, #FC466B 0%, #3F5EFB 100%)
         border: none
-        border-radius: 0px
-        left: 0px
-        top: 60px
-        right: 0px
-        bottom: 0px
-        width: none
-        overflow-y: scroll
-        overflow-x: hidden
+        border-radius: 5px
+        color: $linkColor
+        font-size: 20px
+        font-weight: 900
+        transition: transform 0.2s
+        margin-top: 26px
+        border: 2px solid $linkColor
         box-sizing: border-box
+        background: $linkColor
+        color: white
+        transition: background 0.2s, color 0.2s
+
+        &:hover
+            cursor: pointer
+            background: white
+            color: $linkColor
+
+@media only screen and (max-width: 600px), (max-height: 630px)
+    header
+        display: none
+
+    main
+
+        .box
+            position: fixed
+            left: 0px
+            right: 0px
+            top: 0px
+            bottom: 0px
+            border: none
+            border-radius: 0px
+            z-index: 999
+            max-width: none
+            overflow-y: scroll

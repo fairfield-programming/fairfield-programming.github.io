@@ -2,6 +2,21 @@
   outline: none;
 }
 
+@media only screen and (max-width: 600px) {
+  form {
+    position: fixed;
+    border: none;
+    border-radius: 0px;
+    left: 0px;
+    top: 60px;
+    right: 0px;
+    bottom: 0px;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+}
 main {
   position: fixed;
   display: flex;
@@ -25,11 +40,12 @@ main .background {
   transform: rotateX(180deg);
 }
 main form {
+  width: 420px;
   background: #fff;
   border-radius: 5px;
   border: 1px solid #ddd;
   margin-bottom: 40px;
-  box-sizing: content-box;
+  box-sizing: border-box;
   z-index: 1;
 }
 main form img {
@@ -47,7 +63,6 @@ main form h1 {
 }
 main form p {
   box-sizing: border-box;
-  width: 420px;
   padding: 5px;
   line-height: 1.6;
   margin: 10px;
@@ -67,8 +82,8 @@ main form .password button:hover {
   cursor: pointer;
 }
 main form .input {
-  width: 420px;
-  margin: 10px;
+  width: calc(100% - 20px);
+  box-sizing: border-box;
   padding: 0px;
   position: relative;
   margin: 20px 10px;
@@ -93,7 +108,8 @@ main form .input input {
   font-weight: 100;
 }
 main form input[type=submit] {
-  width: 420px;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
   margin: 10px;
   padding: 14px;
   font-size: 16pt;

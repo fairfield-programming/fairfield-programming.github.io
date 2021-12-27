@@ -37,6 +37,7 @@ main section {
   position: relative;
   max-width: 500px;
   margin: 0px auto;
+  padding: 0px;
 }
 main section label {
   display: inline-block;
@@ -49,7 +50,7 @@ main section label {
 }
 main section input {
   display: inline-block;
-  width: calc(100% - 30px);
+  width: calc(100% - 32px);
   padding: 15px;
   border-radius: 5px;
   border: 1px solid #ddd;

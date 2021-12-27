@@ -1,3 +1,7 @@
+* {
+  outline: none;
+}
+
 main {
   position: fixed;
   left: 0px;

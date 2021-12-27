@@ -12,6 +12,11 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+main .joke {
+  margin-top: 40px;
+  z-index: 100;
 }
 main svg {
   position: fixed;

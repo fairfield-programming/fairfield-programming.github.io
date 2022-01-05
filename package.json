@@ -2,6 +2,10 @@
   "name": "fpa-website",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel serve index.html auth/login/index.html auth/signup/index.html rules/index.html --no-cache --dist-dir=docs"
+    "start": "parcel serve index.html auth/login/index.html auth/signup/index.html rules/index.html --no-cache --out-dir=docs",
+    "build": "parcel build index.html auth/login/index.html auth/signup/index.html rules/index.html --no-cache --out-dir=docs"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
   }
 }

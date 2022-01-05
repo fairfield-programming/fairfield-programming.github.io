@@ -7,31 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/main.22a94128.css">
-    <link rel="stylesheet" href="/header.cfae27e0.css">
-    <link rel="stylesheet" href="/auth.dba08bef.css">
+    <link rel="stylesheet" href="/index.9f673d86.css">
+    <link rel="stylesheet" href="/index.b4df4608.css">
+    <link rel="stylesheet" href="/auth/login/index.3d6920d3.css">
 
-    <link rel="icon" type="image/svg+xml" href="/favicon.1eb32744.svg">
+    <link rel="icon" type="image/svg+xml" href="/favicon.6aa5c295.svg">
     <!-- <include src="./src/head.html"></include> -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LMPD3GLWYH"></script>
 <script>window.dataLayer = window.dataLayer || [];
-
 function gtag() {
-  dataLayer.push(arguments);
+    dataLayer.push(arguments);
 }
-
 gtag("js", new Date());
-gtag("config", "G-LMPD3GLWYH");</script>
+gtag("config", "G-LMPD3GLWYH");
 
-  <script src="/auth.dba08bef.js"></script></head>
+</script>
+
+  </head>
   <body>
     <header>
   <table class="size">
     <td>
       <div class="left">
         <a href="/">
-          <img height="60px" src="/logo.07ba1f9c.svg" alt="">
+          <img height="60px" src="/logo.c76d2a28.svg" alt="">
         </a>
       </div>
     </td>
@@ -47,34 +47,31 @@ gtag("config", "G-LMPD3GLWYH");</script>
 
     <main>
       <script>var passwordVisible = false;
-
-window.onload = function () {
-  var xmlHttp = new XMLHttpRequest();
-  xmlHttp.open("GET", "https://fairfield-programming.herokuapp.com/joke", true);
-  xmlHttp.send(null);
-  console.log(xmlHttp);
-
-  xmlHttp.onload = function (res) {
-    document.getElementById("joke").innerHTML = xmlHttp.response;
-  };
+window.onload = function() {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("GET", "https://fairfield-programming.herokuapp.com/joke", true);
+    xmlHttp.send(null);
+    console.log(xmlHttp);
+    xmlHttp.onload = function(res) {
+        document.getElementById("joke").innerHTML = xmlHttp.response;
+    };
 };
-
 function togglePasswordVisibility() {
-  var passwordInput = document.getElementById("password");
-  var passwordVisibleToggle = document.getElementById("passwordVisibleToggle");
+    var passwordInput = document.getElementById("password");
+    var passwordVisibleToggle = document.getElementById("passwordVisibleToggle");
+    if (passwordVisible) {
+        passwordInput.type = "password";
+        passwordVisibleToggle.classList.remove("fa-eye-slash");
+        passwordVisibleToggle.classList.add("fa-eye");
+    } else {
+        passwordInput.type = "text";
+        passwordVisibleToggle.classList.remove("fa-eye");
+        passwordVisibleToggle.classList.add("fa-eye-slash");
+    }
+    passwordVisible = !passwordVisible;
+}
 
-  if (passwordVisible) {
-    passwordInput.type = "password";
-    passwordVisibleToggle.classList.remove("fa-eye-slash");
-    passwordVisibleToggle.classList.add("fa-eye");
-  } else {
-    passwordInput.type = "text";
-    passwordVisibleToggle.classList.remove("fa-eye");
-    passwordVisibleToggle.classList.add("fa-eye-slash");
-  }
-
-  passwordVisible = !passwordVisible;
-}</script>
+</script>
       <div class="box">
         <section>
           <h2>Login</h2>
@@ -96,7 +93,7 @@ function togglePasswordVisibility() {
           <button>Login</button>
         </section>
       </div>
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1200 120" preserveaspectratio="none">
         <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="layer2 shape-fill"></path>
       </svg>
       <p id="joke" class="joke">*</p>

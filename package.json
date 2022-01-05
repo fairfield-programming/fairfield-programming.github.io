@@ -1,0 +1,7 @@
+{
+  "name": "fpa-website",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel serve index.html auth/login/index.html auth/signup/index.html rules/index.html --no-cache --dist-dir=docs"
+  }
+}

@@ -6,6 +6,8 @@
     "build": "parcel build index.html auth/login/index.html auth/signup/index.html rules/index.html --no-cache --out-dir=docs"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "posthtml-include": "^1.7.2",
+    "sass": "^1.45.2"
   }
 }

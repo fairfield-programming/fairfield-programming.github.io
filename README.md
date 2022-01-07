@@ -3,6 +3,7 @@
 </p>
 
 # Fairfield Programming Association Frontend
+
 <p align="left">
 <img src="https://img.shields.io/github/contributors/fairfield-programming/fairfield-programming.github.io" alt="GitHub contributors">
 <img src="https://img.shields.io/github/commit-activity/w/fairfield-programming/fairfield-programming.github.io" alt="GitHub commit activity">
@@ -13,7 +14,8 @@
 </p>
 
 ## Features
-Right now, we are more focused on getting the backend functionality of the website going before we work too much on the frontend. To see more information about the backend of the website, you can check out [this repository](https://github.com/fairfield-programming/backend-server). If you are interested in this project at all, or just want to support us, make sure you star both this repository and the backend repository. 
+
+Right now, we are more focused on getting the backend functionality of the website going before we work too much on the frontend. To see more information about the backend of the website, you can check out [this repository](https://github.com/fairfield-programming/backend-server). If you are interested in this project at all, or just want to support us, make sure you star both this repository and the backend repository.
 
 ## Contribute
 

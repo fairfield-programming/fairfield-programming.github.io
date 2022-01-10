@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login to the Fairfield Programming Association</title>
+    <include src="./includes/head.html"></include>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body class="text-center">
+    <main class="form-signin">
+      <form>
+        <a href="/">
+          <img class="mb-4" alt="" width="240" src="/resources/logo.svg" />
+        </a>
+        <h1 class="h3 mb-3 fw-normal">Login Below</h1>
+
+        <div class="form-floating">
+          <input
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input
+            type="password"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Password"
+          />
+          <label for="floatingPassword">Password</label>
+        </div>
+        <!-- 
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me" /> Remember me
+          </label>
+        </div> -->
+
+        <button class="w-100 btn btn-lg btn-primary" type="submit">
+          Login
+        </button>
+        <a class="w-100 text-muted p-4" href="/auth/signup" type="submit">
+          Go to Signup
+        </a>
+        <p class="mt-5 mb-3 text-muted">© 2021-2022</p>
+      </form>
+    </main>
+  </body>
+</html>

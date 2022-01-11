@@ -78,17 +78,17 @@ gtag("config", "G-LMPD3GLWYH");
           </div>
           <div id="loggedIn" class="dropdown text-end">
             <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle show" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="true">
-              <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+              <img src="https://github.com/william-mcgonagle.png" alt="mdo" width="32" height="32" class="rounded-circle">
             </a>
             <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="position: absolute;
                 inset: 0px auto auto 0px;
                 margin: 0px;
                 transform: translate3d(0px, 34px, 0px);" data-popper-placement="bottom-start">
               <li><a class="dropdown-item" href="#">New project...</a></li>
-              <li><a class="dropdown-item" href="#">Settings</a></li>
-              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="/settings">Settings</a></li>
+              <li><a class="dropdown-item" href="/user">Profile</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Sign out</a></li>
+              <li><a class="dropdown-item" href="/">Sign out</a></li>
             </ul>
           </div>
         </div>
@@ -103,8 +103,8 @@ gtag("config", "G-LMPD3GLWYH");
 </div>
 <script>var loggedOut = document.getElementById("loggedOut");
 var loggedIn = document.getElementById("loggedIn");
-loggedOut.style.display = "block";
-loggedIn.style.display = "none";
+loggedOut.style.display = "none";
+loggedIn.style.display = "block";
 
 </script>
 
@@ -178,7 +178,21 @@ loggedIn.style.display = "none";
             </div>
           </div>
         </div>
-        <div class="col-xl-6"></div>
+        <div class="col-xl-6">
+          <div class="my-3 nav-scroller bg-body">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Posts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Followers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Following</a>
+              </li>
+            </ul>
+          </div>
+        </div>
         <div class="col-xl-3">
           <div class="my-3 p-3 bg-body border rounded">
             <h6 class="border-bottom pb-2 mb-0">Suggestions</h6>

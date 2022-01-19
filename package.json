@@ -7,6 +7,7 @@
     "build": "parcel build index.html auth/login/index.html auth/signup/index.html rules/index.html --no-cache --dist-dir=docs"
   },
   "devDependencies": {
+    "@parcel/transformer-jsonld": "^2.2.1",
     "@parcel/transformer-sass": "^2.1.0",
     "posthtml-include": "^1.7.2",
     "sass": "^1.45.2"

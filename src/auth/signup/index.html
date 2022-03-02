@@ -5,32 +5,32 @@
   <title>Sign Up to the Fairfield Programming Association</title>
   <include src="./includes/head.html"></include>
   <link rel="stylesheet" href="../style.css" />
+  <script defer src="./email_verification.js"></script>
 </head>
 
 <body class="text-center">
   <main class="form-signin">
-    <!-- For testing within my local machine -->
-    <form action="http://localhost:8080/user/signup" method="POST">
+    <!-- For testing within my local machine-->
+    <form action="http://localhost:8080/user/signup" method="POST"> 
 
       <!-- you should probably use this version in production though -->
       <!-- <form action="/user/signup" method="POST"> -->
       <!-- <form action="https://fairfield-programming.herokuapp.com/user/signup" method="POST"> -->
-
       <a href="/">
         <img class="mb-4" alt="" width="240" src="/resources/logo.svg" />
       </a>
       <h1 class="h3 mb-3 fw-normal">Signup Below</h1>
 
       <div class="form-floating">
-        <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Username" />
+        <input type="text" name="username" class="form-control"  placeholder="Username" />
         <label for="floatingPassword">Username</label>
       </div>
       <div class="form-floating">
-        <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+        <input type="email" name="email" id="email" class="form-control" placeholder="name@example.com" />
         <label for="floatingInput">Email address</label>
       </div>
       <div class="form-floating">
-        <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password" />
+        <input type="password" name="password" class="form-control"  placeholder="Password" />
         <label for="floatingPassword">Password</label>
       </div>
       <button class="w-100 btn btn-lg btn-primary" type="submit">

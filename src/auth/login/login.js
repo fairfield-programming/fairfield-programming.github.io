@@ -11,6 +11,9 @@ loginForm.onsubmit = () => {
             email,
             password,
             username: ""
+        }),
+        headers: new Headers({
+            "Content-Type": "application/json"
         })
     });
 

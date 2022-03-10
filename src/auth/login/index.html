@@ -7,7 +7,7 @@
   </head>
   <body class="text-center">
     <main class="form-signin">
-      <form>
+      <form id="login-form">
         <a href="/">
           <img class="mb-4" alt="" width="240" src="/resources/logo.svg" />
         </a>
@@ -17,19 +17,19 @@
           <input
             type="email"
             class="form-control"
-            id="floatingInput"
+            id="email"
             placeholder="name@example.com"
           />
-          <label for="floatingInput">Email address</label>
+          <label for="email">Email address</label>
         </div>
         <div class="form-floating">
           <input
             type="password"
             class="form-control"
-            id="floatingPassword"
+            id="password"
             placeholder="Password"
           />
-          <label for="floatingPassword">Password</label>
+          <label for="password">Password</label>
         </div>
         <!-- 
         <div class="checkbox mb-3">
@@ -47,5 +47,6 @@
         <p class="mt-5 mb-3 text-muted">© 2021-2022</p>
       </form>
     </main>
+    <script src="./login.js"></script>
   </body>
 </html>

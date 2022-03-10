@@ -6,7 +6,8 @@ loginForm.onsubmit = ()=>{
         method: "POST",
         body: JSON.stringify({
             email,
-            password
+            password,
+            username: ""
         })
     });
     fetch(request).then((data)=>{

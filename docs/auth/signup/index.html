@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Sign Up to the Fairfield Programming Association</title>
-    <!-- Meta Tags -->
+
+<head>
+  <title>Sign Up to the Fairfield Programming Association</title>
+  <!-- Meta Tags -->
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,41 +31,44 @@ gtag("config", "G-LMPD3GLWYH");
 <!-- Favicon -->
 <link rel="shortcut icon" href="/favicon.ed3356b1.svg">
 
-    <link rel="stylesheet" href="/auth/login/index.eebcad30.css">
-  </head>
-  <body class="text-center">
-    <main class="form-signin">
-      <form>
-        <div class="alert alert-primary" role="alert">
-          As the website is under construction, this feature is temporarily
-          unavailable.
-        </div>
-        <a href="/">
-          <img class="mb-4" alt="" width="240" src="/logo.4cd66852.svg">
-        </a>
-        <h1 class="h3 mb-3 fw-normal">Signup Below</h1>
+  <link rel="stylesheet" href="/auth/login/index.eebcad30.css">
+</head>
 
-        <div class="form-floating">
-          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-          <label for="floatingInput">Email address</label>
-        </div>
-        <div class="form-floating">
-          <input type="text" class="form-control" id="floatingInput" placeholder="jane-smith">
-          <label for="floatingInput">Username</label>
-        </div>
-        <div class="form-floating">
-          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-          <label for="floatingPassword">Password</label>
-        </div>
+<body class="text-center">
+  <main class="form-signin">
+    <!-- For testing within my local machine -->
+    <form action="http://localhost:8080/user/signup" method="POST">
 
-        <button class="w-100 btn btn-lg btn-primary" type="submit">
-          Signup
-        </button>
-        <a class="w-100 text-muted p-4" href="/auth/login" type="submit">
-          Go to Login
-        </a>
-        <p class="mt-5 mb-3 text-muted">© 2021-2022</p>
-      </form>
-    </main>
-  </body>
+      <!-- you should probably use this version in production though -->
+      <!-- <form action="/user/signup" method="POST"> -->
+      <!-- <form action="https://fairfield-programming.herokuapp.com/user/signup" method="POST"> -->
+
+      <a href="/">
+        <img class="mb-4" alt="" width="240" src="/logo.4cd66852.svg">
+      </a>
+      <h1 class="h3 mb-3 fw-normal">Signup Below</h1>
+
+      <div class="form-floating">
+        <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Username">
+        <label for="floatingPassword">Username</label>
+      </div>
+      <div class="form-floating">
+        <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">
+        Signup
+      </button>
+      <a class="w-100 text-muted p-4" href="/auth/login" type="submit">
+        Go to Login
+      </a>
+      <p class="mt-5 mb-3 text-muted">© 2021-2022</p>
+    </form>
+  </main>
+</body>
+
 </html>

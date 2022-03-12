@@ -35,28 +35,28 @@ gtag("config", "G-LMPD3GLWYH");
 
     <link rel="stylesheet" href="/auth/login/index.eebcad30.css">
   </head>
+
   <body class="text-center">
     <main class="form-signin">
-      <form id="login-form">
+      <!-- For testing within my local machine -->
+      <!-- <form action="http://localhost:8080/user/login" method="POST"> -->
+
+      <!-- you should probably use this version in production though -->
+      <!-- <form action="/user/login" method="POST"> -->
+      <form>
         <a href="/">
           <img class="mb-4" alt="" width="240" src="/logo.4cd66852.svg">
         </a>
         <h1 class="h3 mb-3 fw-normal">Login Below</h1>
 
         <div class="form-floating">
-          <input type="email" class="form-control" id="email" placeholder="name@example.com">
-          <label for="email">Email address</label>
+          <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
         </div>
         <div class="form-floating">
-          <input type="password" class="form-control" id="password" placeholder="Password">
-          <label for="password">Password</label>
+          <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
         </div>
-        <!-- 
-        <div class="checkbox mb-3">
-          <label>
-            <input type="checkbox" value="remember-me" /> Remember me
-          </label>
-        </div> -->
 
         <button class="w-100 btn btn-lg btn-primary" type="submit">
           Login
@@ -68,5 +68,5 @@ gtag("config", "G-LMPD3GLWYH");
       </form>
     </main>
   </body>
-  <script src="/auth/login/index.5d9a22b8.js">
-</script></html>
+  <script src="/auth/login/index.5d9a22b8.js"></script>
+</html>

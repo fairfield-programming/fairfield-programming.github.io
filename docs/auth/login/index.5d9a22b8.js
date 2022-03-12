@@ -17,11 +17,16 @@ loginForm.onsubmit = ()=>{
         if (data.status == 200) {
             Cookies.set('token', data.json.token);
             window.location.href = "/dashboard";
-        }
+        } else displayWarning("Incorrect Username or Password.");
     }).catch((error)=>{
-        console.log(error);
+        displayWarning("Internal Error- Try Reloading the Page.");
     });
     return false;
 };
+function displayWarning(warningText) {
+    var warningBox = document.getElementById("warningBox");
+    warningBox.innerHTML = warningText;
+    warningBox.style.display = "block";
+}
 
 //# sourceMappingURL=index.5d9a22b8.js.map

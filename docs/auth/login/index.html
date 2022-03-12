@@ -38,25 +38,21 @@ gtag("config", "G-LMPD3GLWYH");
 
   <body class="text-center">
     <main class="form-signin">
-      <!-- For testing within my local machine -->
-      <!-- <form action="http://localhost:8080/user/login" method="POST"> -->
-
-      <!-- you should probably use this version in production though -->
-      <!-- <form action="/user/login" method="POST"> -->
-      <form>
+      <form id="login-form">
         <a href="/">
           <img class="mb-4" alt="" width="240" src="/logo.4cd66852.svg">
         </a>
         <h1 class="h3 mb-3 fw-normal">Login Below</h1>
 
         <div class="form-floating">
-          <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-          <label for="floatingInput">Email address</label>
+          <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com">
+          <label for="email">Email address</label>
         </div>
         <div class="form-floating">
-          <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
-          <label for="floatingPassword">Password</label>
+          <input type="password" name="password" class="form-control" id="password" placeholder="Password">
+          <label for="password">Password</label>
         </div>
+        <div id="warningBox" style="display: none" class="alert alert-primary" role="alert"></div>
 
         <button class="w-100 btn btn-lg btn-primary" type="submit">
           Login

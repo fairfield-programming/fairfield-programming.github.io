@@ -19,7 +19,12 @@ loginForm.onsubmit = () => {
 
     fetch(request).then((data) => {
 
-        console.log(data);
+        if (data.status == 200) {
+
+            Cookies.set('token', data.json.token);
+            window.location.href = "/dashboard";
+
+        }
 
     }).catch((error) => {
 

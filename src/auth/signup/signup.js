@@ -23,6 +23,7 @@ signupForm.onsubmit = () => {
         if (data.status == 200) {
 
             Cookies.set('token', data.json.token);
+            alert("Email has been sent to you, Please go and view it to validate your email address")
             window.location.href = "/dashboard";
 
         } else if (data.status == 403) {

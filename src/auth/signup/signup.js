@@ -25,7 +25,7 @@ signupForm.onsubmit = () => {
             Cookies.set('token', data.json.token);
             window.location.href = "/dashboard";
 
-        } else if (data.status == 409) {
+        } else if (data.status == 403) {
 
             displayWarning("Account Already Exists.");
 

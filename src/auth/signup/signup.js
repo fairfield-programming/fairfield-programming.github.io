@@ -2,7 +2,7 @@ const signupForm = document.getElementById("signup-form");
 
 signupForm.onsubmit = () => {
 
-    const username = document.getElementById("password").username;
+    const username = document.getElementById("username").value;
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
@@ -23,9 +23,10 @@ signupForm.onsubmit = () => {
         if (data.status == 200) {
 
             Cookies.set('token', data.json.token);
+            alert("Email has been sent to you, Please view it to validate your email address. ( The email will expire in 4 days )")
             window.location.href = "/dashboard";
 
-        } else if (data.status == 409) {
+        } else if (data.status == 403) {
 
             displayWarning("Account Already Exists.");
 

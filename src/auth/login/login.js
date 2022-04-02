@@ -26,7 +26,7 @@ loginForm.onsubmit = () => {
 
         } else {
 
-            displayWarning("Incorrect Username or Password.");
+            displayWarning("Incorrect Email or Password.");
 
         }
 

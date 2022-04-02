@@ -22,9 +22,13 @@ signupForm.onsubmit = () => {
 
         if (data.status == 200) {
 
-            Cookies.set('token', data.json.token);
-            alert("Email has been sent to you, Please view it to validate your email address. ( The email will expire in 4 days )")
-            window.location.href = "/dashboard";
+            data.json().then((jsonData) => {
+
+                Cookies.set('token', jsonData.token);
+                alert("Email has been sent to you, Please view it to validate your email address. ( The email will expire in 4 days )")
+                window.location.href = "/dashboard";
+
+            })
 
         } else if (data.status == 403) {
 

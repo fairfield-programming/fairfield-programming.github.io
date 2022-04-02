@@ -1,10 +1,9 @@
 {
   "name": "fpa-website",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel serve src/sitemap.xml src/index.html src/**/index.html src/**/**/index.html --dist-dir=docs",
-    "build": "parcel build index.html auth/login/index.html auth/signup/index.html rules/index.html --no-cache --dist-dir=docs"
+    "start": "parcel serve src/sitemap.xml src/index.html src/**/index.html src/**/**/index.html --dist-dir=docs --no-cache",
+    "build": "parcel build src/sitemap.xml src/index.html src/**/index.html src/**/**/index.html --dist-dir=docs --no-cache"
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.3.1",

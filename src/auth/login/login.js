@@ -10,7 +10,6 @@ loginForm.onsubmit = () => {
         body: JSON.stringify({
             email,
             password,
-            username: ""
         }),
         headers: new Headers({
             "Content-Type": "application/json"
@@ -23,6 +22,10 @@ loginForm.onsubmit = () => {
 
             Cookies.set('token', data.json().token);
             window.location.href = "/dashboard";
+
+        } else if (data.status == 404) {
+
+            displayWarning("Account Not Found.");
 
         } else {
 

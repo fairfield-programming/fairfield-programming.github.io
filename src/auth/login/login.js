@@ -21,7 +21,8 @@ loginForm.onsubmit = () => {
         if (data.status == 200) {
 
             Cookies.set('token', data.json().token);
-            window.location.href = "/dashboard";
+            console.log(data.json());
+            // window.location.href = "/dashboard";
 
         } else if (data.status == 404) {
 

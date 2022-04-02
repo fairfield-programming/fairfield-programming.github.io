@@ -1,3 +1,5 @@
+if (Cookies.get("token") != undefined) window.location.href = "/dashboard";
+
 const signupForm = document.getElementById("signup-form");
 
 signupForm.onsubmit = () => {

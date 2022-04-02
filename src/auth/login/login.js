@@ -19,10 +19,13 @@ loginForm.onsubmit = () => {
     fetch(request).then((data) => {
 
         if (data.status == 200) {
+        
+            data.json().then((jsonData) => {
 
-            console.log(data.json());
-            Cookies.set('token', data.json().token);
-            // window.location.href = "/dashboard";
+                Cookies.set('token', jsonData.token);
+                window.location.href = "/dashboard";
+
+            });
 
         } else if (data.status == 404) {
 

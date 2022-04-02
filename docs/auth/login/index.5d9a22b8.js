@@ -17,7 +17,7 @@ loginForm.onsubmit = ()=>{
         if (data.status == 200) {
             Cookies.set('token', data.json.token);
             window.location.href = "/dashboard";
-        } else displayWarning("Incorrect Username or Password.");
+        } else displayWarning("Incorrect Email or Password.");
     }).catch((error)=>{
         displayWarning("Internal Error- Try Reloading the Page.");
     });

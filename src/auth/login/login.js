@@ -20,8 +20,8 @@ loginForm.onsubmit = () => {
 
         if (data.status == 200) {
 
-            Cookies.set('token', data.json().token);
             console.log(data.json());
+            Cookies.set('token', data.json().token);
             // window.location.href = "/dashboard";
 
         } else if (data.status == 404) {

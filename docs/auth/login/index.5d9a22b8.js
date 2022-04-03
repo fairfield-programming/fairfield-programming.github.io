@@ -1,3 +1,4 @@
+if (Cookies.get("token") != undefined) window.location.href = "/dashboard";
 const loginForm = document.getElementById("login-form");
 loginForm.onsubmit = ()=>{
     const email = document.getElementById("email").value;
@@ -6,18 +7,19 @@ loginForm.onsubmit = ()=>{
         method: "POST",
         body: JSON.stringify({
             email,
-            password,
-            username: ""
+            password
         }),
         headers: new Headers({
             "Content-Type": "application/json"
         })
     });
     fetch(request).then((data)=>{
-        if (data.status == 200) {
-            Cookies.set('token', data.json().token);
+        if (data.status == 200) data.json().then((jsonData)=>{
+            Cookies.set('token', jsonData.token);
             window.location.href = "/dashboard";
-        } else displayWarning("Incorrect Email or Password.");
+        });
+        else if (data.status == 404) displayWarning("Account Not Found.");
+        else displayWarning("Incorrect Email or Password.");
     }).catch((error)=>{
         displayWarning("Internal Error- Try Reloading the Page.");
     });

@@ -14,6 +14,14 @@ fetch("https://fpa-questions.herokuapp.com/question/1").then((response) => {
 
     title.innerHTML = data.body;
 
+    fetch(`https://fairfield-programming.herokuapp.com/user/${data.user}`).then(response => response.json()).then((userData) => {
+
+        questionName.innerHTML = userData.username.replace(/\-/g, " ").replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());;
+        questionUsername.innerHTML = "@" + userData.username;
+        questionIcon.src = data.profilePicture;
+
+    })
+
     data.answers.forEach(element => {
         
        addAnswer(element, answerParent);
@@ -59,7 +67,7 @@ function addAnswer(data, parent) {
 
         userIcon.src = data.profilePicture;
         span.innerHTML = "@" + data.username;
-        strong.innerHTML = data.username.replace(/\-/g, " ").replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());;
+        strong.innerHTML = data.username.replace(/\-/g, " ").replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
 
         container.append(userContainer);
 

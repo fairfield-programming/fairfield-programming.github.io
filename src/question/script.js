@@ -39,19 +39,23 @@ function addAnswer(data, parent) {
         const bar = document.createElement("div");
 
         const span = document.createElement("span");
+        const strong = document.createElement("strong");
 
         userContainer.className = "d-flex text-muted pt-3";
         cliff.className = "mb-0 small lh-sm w-100";
         bar.className = "d-flex justify-content-between";
         span.className = "d-block";
+        strong.className = "text-gray-dark";
 
         userContainer.append(userIcon);
         userContainer.append(cliff);
         cliff.append(span);
         cliff.append(bar);
+        bar.append(strong);
 
         userIcon.src = data.profilePicture;
         span.innerHTML = "@" + data.username;
+        strong.innerHTML = data.username.replace(/\-/g, " ").replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());;
 
         container.append(userContainer);
 

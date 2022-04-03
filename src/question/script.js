@@ -7,9 +7,11 @@ fetch("https://fpa-questions.herokuapp.com/question/1").then((response) => {
 
     if (response.status != 200) window.location.href = "/";
 
+    return response;
+
 }).then(response => response.json()).then((data) => {
 
-    title = data.body;
+    title.innerHTML = data.body;
 
     console.log(data);
 

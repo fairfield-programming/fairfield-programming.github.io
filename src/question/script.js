@@ -38,15 +38,20 @@ function addAnswer(data, parent) {
         const cliff = document.createElement("div");
         const bar = document.createElement("div");
 
+        const span = document.createElement("span");
+
         userContainer.className = "d-flex text-muted pt-3";
         cliff.className = "mb-0 small lh-sm w-100";
         bar.className = "d-flex justify-content-between";
+        span.className = "d-block";
 
         userContainer.append(userIcon);
         userContainer.append(cliff);
+        cliff.append(span);
         cliff.append(bar);
 
         userIcon.src = data.profilePicture;
+        span.innerHTML = "@" + data.username;
 
         container.append(userContainer);
 

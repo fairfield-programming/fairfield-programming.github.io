@@ -16,7 +16,7 @@ fetch("https://fpa-questions.herokuapp.com/question/1").then((response) => {
 
     data.answers.forEach(element => {
         
-       addAnswer(element, ) 
+       addAnswer(element, answerParent);
 
     });
 

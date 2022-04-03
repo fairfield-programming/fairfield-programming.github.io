@@ -21,7 +21,7 @@ fetch(`https://fpa-questions.herokuapp.com/question/${id}`).then((response) => {
 
         questionName.innerHTML = userData.username.replace(/\-/g, " ").replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());;
         questionUsername.innerHTML = "@" + userData.username;
-        questionIcon.src = data.profilePicture;
+        questionIcon.src = userData.profilePicture;
 
     })
 

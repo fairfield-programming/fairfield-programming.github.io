@@ -13,9 +13,10 @@
           <div class="col-md-8">
             <!-- <div class="bg-white rounded-3"> -->
             <div class="row">
-                <h2>What is the best way to deploy microservices?</h2>
+                <h2 id="title"></h2>
                 <div class="d-flex text-muted pt-3">
                   <img
+                    id="questionIcon"
                     class="bd-placeholder-img flex-shrink-0 me-2 rounded"
                     width="32"
                     height="32"
@@ -25,10 +26,10 @@
 
                   <div class="pb-3 mb-0 small lh-sm w-100">
                     <div class="d-flex justify-content-between">
-                      <strong class="text-gray-dark">Full Name</strong>
+                      <strong id="questionName" class="text-gray-dark"></strong>
                       <!-- <a href="#">Follow</a> -->
                     </div>
-                    <span class="d-block">@username</span>
+                    <span id="questionUsername" class="d-block">@</span>
                   </div>
                 </div>
                 <hr />
@@ -69,6 +70,7 @@
     <br />
     <br />
 
+    <script src="./script.js"></script>
     <include src="./includes/footer.html"></include>
   </body>
 </html>

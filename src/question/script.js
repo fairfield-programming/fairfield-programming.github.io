@@ -4,7 +4,10 @@ const questionIcon = document.getElementById("questionIcon");
 const questionUsername = document.getElementById("questionUsername");
 const answerParent = document.getElementById("answerParent");
 
-fetch("https://fpa-questions.herokuapp.com/question/1").then((response) => {
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get('id');
+
+fetch(`https://fpa-questions.herokuapp.com/question/${id}`).then((response) => {
 
     if (response.status != 200) window.location.href = "/";
 

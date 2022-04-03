@@ -33,10 +33,16 @@ function addAnswer(data, parent) {
 
         const userContainer = document.createElement("div");
         const userIcon = document.createElement("img");
+        const cliff = document.createElement("div");
+        const bar = document.createElement("div");
 
         userContainer.className = "d-flex text-muted pt-3";
+        cliff.className = "mb-0 small lh-sm w-100";
+        bar.className = "d-flex justify-content-between";
 
         userContainer.append(userIcon);
+        userContainer.append(cliff);
+        cliff.append(bar);
 
         userIcon.src = data.profilePicture;
 

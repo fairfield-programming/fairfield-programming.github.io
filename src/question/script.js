@@ -29,6 +29,8 @@ function addAnswer(data, parent) {
     const container = document.createElement("div");
     const paragraph = document.createElement("p");
 
+    console.log(data);
+
     fetch(`https://fairfield-programming.herokuapp.com/user/${data.user}`).then(response => response.json()).then((data) => {
 
         const userContainer = document.createElement("div");
@@ -59,5 +61,3 @@ function addAnswer(data, parent) {
     parent.append(container);
 
 }
-
-addAnswer({ body: "This is a test" }, answerParent)

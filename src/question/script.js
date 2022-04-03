@@ -46,11 +46,15 @@ function addAnswer(data, parent) {
         bar.className = "d-flex justify-content-between";
         span.className = "d-block";
         strong.className = "text-gray-dark";
+        userIcon.className = "bd-placeholder-img flex-shrink-0 me-2 rounded";
+
+        userIcon.width = 32;
+        userIcon.height = 32;
 
         userContainer.append(userIcon);
         userContainer.append(cliff);
-        cliff.append(span);
         cliff.append(bar);
+        cliff.append(span);
         bar.append(strong);
 
         userIcon.src = data.profilePicture;

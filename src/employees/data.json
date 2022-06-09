@@ -1,0 +1,24 @@
+[
+  {
+    "name": "William McGonagle",
+    "positions": ["President", "Chief Executive Officer"],
+    "thumbnail": "https://avatars.githubusercontent.com/u/19496353?s=512",
+    "email": "mcgonaglew@fairfieldprogramming.org",
+    "phone": "+1 203 913 5737",
+    "icecream": "Coffee"
+  },
+  {
+    "name": "Neil Chaudhari",
+    "positions": ["Vice-President", "Chief Operating Officer"],
+    "thumbnail": "https://avatars.githubusercontent.com/u/30356902?s=512",
+    "email": "chaudharin@fairfieldprogramming.org",
+    "icecream": "Chocolate"
+  },
+  {
+    "name": "Joel Strand",
+    "positions": ["Secretary", "Chief Technology Officer"],
+    "thumbnail": "https://avatars.githubusercontent.com/u/85464337?s=512",
+    "email": "strandj@fairfieldprogramming.org",
+    "icecream": "Chocolate"
+  }
+]

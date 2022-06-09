@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Employees - Fairfield Programming Association</title>
+    <include src="./includes/head.html"></include>
+  </head>
+  <body>
+    <include src="./includes/header.html"></include>
+
+    <div class="container-lg p-4">
+      <div class="p-5 mb-4 bg-white rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Our Team</h1>
+          <p class="col-md-8 fs-4">
+            To learn more about our team, you can use our employee search tool
+            below. Feel free to contact anyone who has their information listed
+            below- we're happy to help!
+          </p>
+          <br />
+          <div class="col-sm-6">
+            <div class="input-group">
+              <input
+                id="searchBox"
+                type="text"
+                class="form-control"
+                placeholder="Name, Position, or Favorite Ice Cream"
+              />
+              <button type="submit" class="btn btn-secondary">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-lg p-4">
+      <div class="row" id="employeeContainer"></div>
+    </div>
+    <include src="./includes/footer.html"></include>
+    <script type="module" src="./script.ts"></script>
+    <link rel="data" href="/src/employees/data.json" />
+  </body>
+</html>

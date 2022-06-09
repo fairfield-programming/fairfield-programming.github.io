@@ -21,6 +21,38 @@ let employees = [
       "thumbnail": "https://avatars.githubusercontent.com/u/85464337?s=512",
       "email": "strandj@fairfieldprogramming.org",
       "icecream": "Chocolate"
+    },
+    {
+        "name": "Massiles Ghernaout",
+        "positions": [
+            "Backend Developer"
+        ],
+        "thumbnail": "https://avatars.githubusercontent.com/u/82173113?s=512",
+        "icecream": "Vanilla"
+    },
+    {
+        "name": "Amitav Nott",
+        "positions": [
+            "Lead Competition Developer"
+        ],
+        "thumbnail": "https://avatars.githubusercontent.com/u/58123848?s=512",
+        "icecream": "Vanilla"
+    },
+    {
+        "name": "Luke Schaefer",
+        "positions": [
+            "Contributor"
+        ],
+        "thumbnail": "https://avatars.githubusercontent.com/u/12357690?s=512",
+        "icecream": "Unknown"
+    },
+    {
+        "name": "Nökkvi Sverrisson",
+        "positions": [
+            "Contributor"
+        ],
+        "thumbnail": "https://avatars.githubusercontent.com/u/16718504?s=512",
+        "icecream": "Unknown"
     }
   ];
 

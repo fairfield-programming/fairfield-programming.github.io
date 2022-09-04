@@ -17592,4 +17592,8 @@ textarea.form-control-lg {
   }
 }
 
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 /*# sourceMappingURL=index.06418542.css.map */

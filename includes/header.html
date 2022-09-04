@@ -21,21 +21,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="/about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/employees">Employees</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/about"> About </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="/employees">Employees</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/donate">Donate</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="/programs"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
+              <a class="nav-link dropdown-toggle" href="/programs">
                 Programs
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -56,9 +54,6 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/donate">Donate</a>
-            </li>
           </ul>
         </div>
       </div>
@@ -70,4 +65,3 @@
   <br />
   <br />
 </div>
-<!-- <script src="/includes/header.ts"></script> -->

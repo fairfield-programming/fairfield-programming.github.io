@@ -1,26 +1,19 @@
 const employeeContainer = document.getElementById('employeeContainer');
 let employees = [
     {
-      "name": "William McGonagle",
-      "positions": ["Founder", "Vice-President", "Chief Executive Officer"],
-      "thumbnail": "https://avatars.githubusercontent.com/u/19496353?s=512",
-      "email": "mcgonaglew@fairfieldprogramming.org",
-      "phone": "+1 203 913 5737",
-      "icecream": "Coffee"
+        "name": "William McGonagle",
+        "positions": ["Founder", "Vice-President", "Chief Executive Officer"],
+        "thumbnail": "https://avatars.githubusercontent.com/u/19496353?s=512",
+        "email": "mcgonaglew@fairfieldprogramming.org",
+        "phone": "+1 203 913 5737",
+        "icecream": "Coffee"
     },
     {
-      "name": "Neil Chaudhari",
-      "positions": ["Founder", "President", "Chief Operating Officer"],
-      "thumbnail": "https://avatars.githubusercontent.com/u/30356902?s=512",
-      "email": "chaudharin@fairfieldprogramming.org",
-      "icecream": "Chocolate"
-    },
-    {
-      "name": "Joel Strand",
-      "positions": ["Contributor"],
-      "thumbnail": "https://avatars.githubusercontent.com/u/85464337?s=512",
-      "email": "strandj@fairfieldprogramming.org",
-      "icecream": "Chocolate"
+        "name": "Neil Chaudhari",
+        "positions": ["Founder", "President", "Chief Operating Officer"],
+        "thumbnail": "https://avatars.githubusercontent.com/u/30356902?s=512",
+        "email": "chaudharin@fairfieldprogramming.org",
+        "icecream": "Chocolate"
     },
     {
         "name": "Massiles Ghernaout",
@@ -47,6 +40,13 @@ let employees = [
         "icecream": "Unknown"
     },
     {
+        "name": "Joel Strand",
+        "positions": ["Contributor"],
+        "thumbnail": "https://avatars.githubusercontent.com/u/85464337?s=512",
+        "email": "strandj@fairfieldprogramming.org",
+        "icecream": "Chocolate"
+    },
+    {
         "name": "Nökkvi Sverrisson",
         "positions": [
             "Contributor"
@@ -54,7 +54,7 @@ let employees = [
         "thumbnail": "https://avatars.githubusercontent.com/u/16718504?s=512",
         "icecream": "Unknown"
     }
-  ];
+];
 
 // fetch(jsonUrl).then(res => res.json()).then(data => {
 
@@ -79,9 +79,9 @@ function runQuery(query) {
 
         let contains = false;
         employee.positions.forEach(position => {
-            
+
             if (position.toUpperCase().includes(query.toUpperCase())) contains = true;
-            
+
         });
 
         return contains;
@@ -89,7 +89,7 @@ function runQuery(query) {
     }).forEach(employee => {
 
         createEmployee(employee, employeeContainer);
-    
+
     });
 
 }

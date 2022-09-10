@@ -554,7 +554,7 @@ let employees = [
     {
         "name": "Massiles Ghernaout",
         "positions": [
-            "Backend Developer"
+            "Chief Technology Officer"
         ],
         "thumbnail": "https://avatars.githubusercontent.com/u/82173113?s=512",
         "icecream": "Vanilla"

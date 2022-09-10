@@ -552,15 +552,6 @@ let employees = [
         "icecream": "Chocolate"
     },
     {
-        "name": "Joel Strand",
-        "positions": [
-            "Contributor"
-        ],
-        "thumbnail": "https://avatars.githubusercontent.com/u/85464337?s=512",
-        "email": "strandj@fairfieldprogramming.org",
-        "icecream": "Chocolate"
-    },
-    {
         "name": "Massiles Ghernaout",
         "positions": [
             "Backend Developer"
@@ -583,6 +574,15 @@ let employees = [
         ],
         "thumbnail": "https://avatars.githubusercontent.com/u/12357690?s=512",
         "icecream": "Unknown"
+    },
+    {
+        "name": "Joel Strand",
+        "positions": [
+            "Contributor"
+        ],
+        "thumbnail": "https://avatars.githubusercontent.com/u/85464337?s=512",
+        "email": "strandj@fairfieldprogramming.org",
+        "icecream": "Chocolate"
     },
     {
         "name": "Nökkvi Sverrisson",

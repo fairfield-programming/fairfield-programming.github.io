@@ -531,6 +531,7 @@ let employees = [
     {
         "name": "William McGonagle",
         "positions": [
+            "Founder",
             "Vice-President",
             "Chief Executive Officer"
         ],
@@ -542,6 +543,7 @@ let employees = [
     {
         "name": "Neil Chaudhari",
         "positions": [
+            "Founder",
             "President",
             "Chief Operating Officer"
         ],
@@ -552,7 +554,7 @@ let employees = [
     {
         "name": "Joel Strand",
         "positions": [
-            "Secretary"
+            "Contributor"
         ],
         "thumbnail": "https://avatars.githubusercontent.com/u/85464337?s=512",
         "email": "strandj@fairfieldprogramming.org",

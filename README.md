@@ -1,3 +1,6 @@
+**NOTICE**: For full list of contributors, see contributors listed in the [Backend Repository](https://github.com/fairfield-programming/backend-server/).
+-----
+
 <p align="center">
 <img width="200" src="https://raw.githubusercontent.com/fairfield-programming/backend-server/d84cd53499177b9069d3a0a72c80701627190c18/.github/media/logo-full.svg">
 </p>

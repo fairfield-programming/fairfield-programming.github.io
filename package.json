@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "William McGonagle <mcgonaglew@fairfieldprogramming.org>",
   "dependencies": {
-    "gatsby": "^5.2.0",
+    "gatsby": "^5.3.3",
     "gatsby-plugin-image": "^3.2.0",
     "gatsby-plugin-manifest": "^5.2.0",
     "gatsby-plugin-robots-txt": "^1.8.0",

@@ -1,0 +1,105 @@
+{
+    "impact": {
+        "children": 29,
+        "adults": 0,
+        "girls": 9,
+        "boys": 8,
+        "nonBinary": 1
+    },
+    "faq": [
+        {
+            "question": "Is the Fairfield Programming Association a non-profit?",
+            "answer": "Yes! We formed the FPA as a non-profit in the beautiful state of Connecticut and then earned our 501(c)(3) designation from the IRS a few months later. Because of our status, we can accept donations and hopefully avoid conflicts of interest in financing."
+        }
+    ],
+    "mission": {
+        "description": [
+            "The Fairfield Programming Association was founded on the belief that anyone can learn to program, if they were given the right resources.",
+            "Together, we can end educational differences based on gender, race, nationality, religion, economic standpoint, or beliefs."
+        ],
+        "oneStudentPromise": [
+            "For every product that the Fairfield Programming Association sells, we promise that a student will be taught how to code. If you don't want to buy a product from the FPA, becoming a monthly-sponsor can help keep our mission going during times when we need it the most."
+        ]
+    },
+    "social": {
+        "instagram": "@fairfield.programming"
+    },
+    "documents": [
+        {
+            "name": "1023-EZ",
+            "path": "/documents/1023-EZ.pdf"
+        },
+        {
+            "name": "Certificate of Incorporation",
+            "path": "/documents/Certificate of Incorporation.pdf"
+        },
+        {
+            "name": "Determination Letter",
+            "path": "/documents/Determination Letter.pdf"
+        },
+        {
+            "name": "Organization and First Report",
+            "path": "/documents/Organization and First Report.pdf"
+        }
+    ],
+    "press": [
+        {
+            "name": "Press Release on 08.02.22",
+            "path": "/press/08.02.22.pdf"
+        },
+        {
+            "name": "Board Meeting on 07.25.22",
+            "path": "/press/07.25.22.pdf"
+        },
+        {
+            "name": "Board Meeting on 06.25.22",
+            "path": "/press/06.25.22.pdf"
+        }
+    ],
+    "images": {
+        "general": [
+            {
+                "alt": "Rye Country Day School winning the GFA Invitational.",
+                "src": "photos/instagram2.jpeg"
+            },
+            {
+                "alt": "A woman teaching two kids how to code.",
+                "src": "https://primotoys.com/wp-content/uploads/2017/08/iStock-684059604-1024x683.jpg"
+            }
+        ],
+        "instagram": [
+            {
+                "href": "",
+                "src": "photos/instagram1.jpeg"
+            },
+            {
+                "href": "",
+                "src": "photos/instagram2.jpeg"
+            },
+            {
+                "href": "",
+                "src": "photos/instagram3.jpeg"
+            },
+            {
+                "href": "",
+                "src": "photos/instagram4.jpeg"
+            },
+            {
+                "href": "",
+                "src": "photos/instagram5.jpeg"
+            },
+            {
+                "href": "",
+                "src": "photos/instagram6.jpeg"
+            },
+            {
+                "href": "",
+                "src": "photos/instagram7.jpeg"
+            },
+            {
+                "href": "",
+                "src": "photos/instagram8.jpeg"
+            }
+        ]
+    }
+}

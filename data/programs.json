@@ -1,0 +1,98 @@
+{
+    "description": "Below is a list of all the programs that the Fairfield Programming Association runs in order to help educate the world about computer science and technology. ",
+    "programs": [
+        {
+            "slug": "charter-outreach",
+            "title": "Charter Outreach",
+            "description": "This program focuses on partnering with local schools, enabling them to build clubs, all in order to educate future generations.",
+            "since": "2022-07-17"
+        },
+        {
+            "slug": "charter-events",
+            "title": "Charter Events",
+            "description": "This program uses the charter system implemented in The Charter Outreach Program, but uses it for hosting learning events.",
+            "since": "2022-04-22"
+        },
+        {
+            "slug": "cherry-cake",
+            "title": "Cherry Cake Programming Language",
+            "description": "The Cherry Cake Programming Language was designed and built by the Fairfield Programming Association in order to build fast, flexible, and scalable servers.",
+            "joining": "Joining the Cherry Cake Development Group is quite easy as members are split up based on their skills. If you are good at writing fast, detailed, and meaningful papers then you will be good at writing specifications for the language. If you are good at programming in C or C++, or have a general knowledge of programming language development, then CLI development is probably for you. If neither of these areas seem to fit, don't worry– there is no-doubt a job for you. To join, simply email Alden Grover, the head of the Cherry Cake Development Group and ask how you can help.",
+            "since": "2022-12-18"
+        },
+        {
+            "slug": "metaverse",
+            "title": "Metaverse Research Group",
+            "description": "This group focuses on researching the future of the Metaverse and Web3 in order to build a equitable, distributed, and fair future.",
+            "since": "2023-01-13"
+        },
+        {
+            "slug": "opensource-legal",
+            "title": "Open Source Licensing",
+            "description": "Our Open Source Licensing Program was built out of necessity for more modern licenses that reflect the current tech-landscape.",
+            "since": "2022-09-05",
+            "contents": [
+                {
+                    "title": "Documents",
+                    "contents": {
+                        "FPA General Code License": "fpa-general-code"
+                    }
+                }
+            ],
+            "pages": [
+                {
+                    "slug": "fpa-general-code",
+                    "title": "FPA General Code License",
+                    "description": "The FPA General Code License was originally created as a way to permissively license our software for all without having to deal with commercial entities 'asset-ripping' code from our open projects.",
+                    "content": [
+                        {
+                            "type": "banner"
+                        },
+                        {
+                            "type": "markdown",
+                            "content": [
+                                "## What does the license allow?",
+                                "The license allows for anyone to use, copy, modify, merge, publish, or distribute the code in an educational or personal context. In a commercial context, users must substantially modify the code- prohibiting companies from copying code and selling it as their own on stores.",
+                                "## Can I modify it?",
+                                "Yes! The license is designed so that copyright owners can input different conditions that software users must fulfill. But, we do recommend that you have a lawyer look at the document before use as we do not claim any legal responsibility.",
+                                "## Does it protect me?",
+                                "The license includes a clause from the MIT license that protects the copyright owners by limiting liability and stating that the software is provided without warranty. This clause will limit liability as long as it is kept unmodified."
+                            ]
+                        },
+                        {
+                            "type": "code",
+                            "title": "",
+                            "content": [
+                                "Copyright <YEAR> <COPYRIGHT HOLDER>",
+                                "",
+                                "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without limitation in the rights to use, copy, modify, merge, publish, and/ or distribute copies of the Software in an educational or personal context, subject to the following conditions:",
+                                "",
+                                "- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+                                "",
+                                "Permission is granted to sell and/ or distribute copies of the Software in a commercial context, subject to the following conditions:",
+                                "",
+                                "- Substantial changes: adding, removing, or modifying large parts, shall be developed in the Software. Reorganizing logic in the software does not warrant a substantial change.",
+                                "",
+                                "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "slug": "fpa-cla",
+                    "title": "FPA Contributor License Agreement",
+                    "description": "",
+                    "content": [
+                        {
+                            "type": "banner"
+                        },
+                        {
+                            "type": "markdown",
+                            "content": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

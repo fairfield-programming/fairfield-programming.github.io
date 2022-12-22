@@ -1,0 +1,24 @@
+[
+    {
+        "first": "William",
+        "last": "McGonagle",
+        "email": "mcgonaglew@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
+        "biography": "William McGonagle is one of the co-founders of the FPA. Born on September 8th, 2004, he currently resides in Bridgeport, Connecticut near the headquarters of the FPA. After seeing how income disparity contributes to a shortage of education, he decided that there needed to be more opportunities for learning. He had discussed the problem with a friend, Neil Chaudhari, and within a few weeks, the two were working on building the FPA.",
+        "works": "As the current CEO of the FPA, William mostly watches over general management of all projects while also trying to expand to new areas. Many of the projects created by William have been described as 'risky' and 'bold' by none-other than Neil Chaudhari himself.",
+        "work": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "first": "Neil",
+        "last": "Chaudhari",
+        "email": "chaudharin@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/30356902?v=4",
+        "biography": "",
+        "works": "",
+        "work": []
+    }
+]

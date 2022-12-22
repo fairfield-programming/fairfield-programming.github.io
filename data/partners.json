@@ -1,0 +1,25 @@
+{
+    "description": [
+        "When we first started the FPA, one of our goals was to engage the entire development community with our mission. To do this, we partner with different companies and developer organizations with different goals and projects.",
+        "Below, we assembled a list of all active partnerships that the FPA is engaging in. These partnerships range from small developer contributions, to large-scale programs spanning several years. "
+    ],
+    "partners": [
+        {
+            "slug": "unity-technologies",
+            "since": "2023-01-13",
+            "website": "https://unity.com/",
+            "title": "Unity Technologies",
+            "description": "We partner with Unity Technologies in order to manage and run the Unity \"Open Projects\" program and the FPA Games division.",
+            "what": "Blah",
+            "why": "Blee",
+            "how": "Bloop"
+        },
+        {
+            "slug": "preponderous-software",
+            "since": "2023-01-13",
+            "website": "https://github.com/Preponderous-Software/",
+            "title": "Preponderous Software",
+            "description": "Preponderous is our developer-advocate partner on the \"Open Projects\" collaboration with Unity Technologies."
+        }
+    ]
+}

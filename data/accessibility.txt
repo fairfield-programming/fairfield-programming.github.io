@@ -1,0 +1,9 @@
+The Fairfield Programming Association prides itself on being an organization that supports everyone, regardless of their ability-status. Because of this, we employ several methods to make our tools and resources publicly available. 
+
+## Semantic HTML and Screen Reader Support
+
+We use Semantic HTML in our layout design to make pages as simple to navigate as possible for individuals using screen readers, audio devices, and assisted viewing systems. Some of our pages may not be perfect and because of this, we do ask that you report any pages that have poor experience on any of these devices so that we can work to improve. 
+
+## ARIA Support
+
+Many of our pages have Aria-support (Aria standing for Accessible Rich Internet Applications). This means that our pages should be easy to use with assistance devices, but if you do not feel this is the case on certain pages, please let us know.

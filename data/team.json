@@ -9,7 +9,8 @@
         "work": [
             0,
             1,
-            2
+            2,
+            3
         ]
     },
     {
@@ -17,8 +18,12 @@
         "last": "Chaudhari",
         "email": "chaudharin@fairfieldprogramming.org",
         "photo": "https://avatars.githubusercontent.com/u/30356902?v=4",
-        "biography": "",
-        "works": "",
-        "work": []
+        "biography": "Neil Chaudhari is one of the co-founders of the FPA. Born on September 23rd, 2006, he currently resides in Darien, CT. After discussing how income disparity in our county contributes to a shortage of education, he and William McGonagle began to work on the FPA.",
+        "works": "As the current President of the FPA, Neil mostly watches over the management of all of the FPA’s projects, with a focus on FPA Charter and Learning.",
+        "work": [
+            0,
+            1,
+            4
+        ]
     }
 ]

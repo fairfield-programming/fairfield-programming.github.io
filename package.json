@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "fairfield-programming",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "William McGonagle <mcgonaglew@fairfieldprogramming.org>",
   "dependencies": {
     "gatsby": "^5.2.0",
@@ -12,7 +12,7 @@
     "gatsby-plugin-sharp": "^5.2.0",
     "gatsby-plugin-sitemap": "^6.3.1",
     "gatsby-source-filesystem": "^5.2.0",
-    "gatsby-transformer-plaintext": "^2.0.0",
+    "gatsby-transformer-remark": "^6.3.2",
     "gatsby-transformer-sharp": "^5.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

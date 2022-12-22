@@ -23,7 +23,7 @@ module.exports = {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: false,
-        sitemap: 'https://about.fairfieldprogramming.org/sitemap-index.xml',
+        sitemap: 'https://about.fairfieldprogramming.org/sitemap/sitemap-index.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },

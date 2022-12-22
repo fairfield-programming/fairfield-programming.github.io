@@ -44,7 +44,7 @@ const SectionCode = ({ context, section }) => {
     return <section>
         <div class="mx-auto max-w-screen-xl px-4 py-16">
             <h2 className="font-bold text-4xl mb-4">{title}</h2>
-            <code class="text-slate-200 bg-slate-800 block p-4 rounded" dangerouslySetInnerHTML={{ __html: content.replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br>') }} />
+            <code class="block p-4 rounded" dangerouslySetInnerHTML={{ __html: content.replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br>') }} />
         </div>
     </section>
 

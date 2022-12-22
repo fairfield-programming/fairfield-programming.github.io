@@ -33,14 +33,14 @@ const Program = ({ pageContext }) => {
                     const title = item.title;
                     const keys = Object.keys(item.contents);
 
-                    return <>
+                    return <div className="mb-8">
                         <h2 className="font-bold text-3xl mb-4">{title}</h2>
                         <ul>
                             {keys.map(key => <li>
                                 <a class="text-sky-400 hover:text-sky-500 hover:underline text-xl mb-16" href={`/programs/${slug}/${item.contents[key]}`}>{key}</a>
                             </li>)}
                         </ul>
-                    </>
+                    </div>
 
                 })
             }

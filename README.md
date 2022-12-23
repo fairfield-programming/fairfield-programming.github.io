@@ -32,3 +32,28 @@ To contribute to this project, please see the [issues tab](https://github.com/fa
 ### How to Add Team Members
 
 Adding team members is quite simple– inside of the data folder we have a file named, [`data/team.json`](https://github.com/fairfield-programming/fairfield-programming.github.io/blob/master/data/team.json), which contains all of the team member information. To add a team member, just duplicate another team members data from the file and change the data inside of it. *Please add the new team member to the bottom of the file because we don't want problems with indexing and whatnot*. Once you've added in this new team member, submit your changes as a pull request and you are done!
+
+One confusing thing about team member objects might be the `email` and `works` parameters. The email is always formatted `[last name][first initial]@fairfieldprogramming.org`. The works is an array of numbers– each number is the index of a project (in the [`data/programs.json`](https://github.com/fairfield-programming/fairfield-programming.github.io/blob/master/data/programs.json) file).
+
+### How to Add a Project
+
+Projects are all stored inside of the [`data/programs.json`](https://github.com/fairfield-programming/fairfield-programming.github.io/blob/master/data/programs.json) file. To add a new project, just add a new item **_at the bottom of the array_** that has slug, title, description, and since parameters.
+
+If you are looking to add more complex information to the project, just look at examples from other projects in the array or down below at the defintion of a program object.
+
+```javascript
+class Program {
+  slug = "example";
+  title = "Example Project";
+  description = "This is an example project"; // Just a short description (20-25 words)
+  since = "04-17-22"; // Follows ISO Date Format
+  joining = "To join, email John!" // A paragraph on how to join, with requirements (80-120 words)
+  
+  // An array of sub-pages
+  pages = [
+    {
+      
+    }
+  ];
+}
+```

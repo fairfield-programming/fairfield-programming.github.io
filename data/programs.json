@@ -51,6 +51,8 @@
                         {
                             "type": "markdown",
                             "content": [
+                                "## How is the FPA General Code License Open Source?",
+                                "The FPA General Code License permits the use, modification, and distribution of code for personal and educational purposes. It also prohibits companies from using the code commercially without significant modification. These characteristics are consistent with the definition of open source, as they permit collaboration and reuse of code under specified constraints.",
                                 "## What does the license allow?",
                                 "The license allows for anyone to use, copy, modify, merge, publish, or distribute the code in an educational or personal context. In a commercial context, users must substantially modify the code- prohibiting companies from copying code and selling it as their own on stores.",
                                 "## Can I modify it?",

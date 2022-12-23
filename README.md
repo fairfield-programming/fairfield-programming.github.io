@@ -43,7 +43,7 @@ If you are looking to add more complex information to the project, just look at 
 
 ```javascript
 class Program {
-  slug = "example";
+  slug = "example"; // The URL slug of the project- ex: https://fairfieldprogramming.org/programs/example
   title = "Example Project";
   description = "This is an example project"; // Just a short description (20-25 words)
   since = "04-17-22"; // Follows ISO Date Format
@@ -52,7 +52,22 @@ class Program {
   // An array of sub-pages
   pages = [
     {
+      "slug": "sub-page", // The URL slug of the project- ex: https://fairfieldprogramming.org/programs/example/sub-page
+      "title": "This is a sub-page", // Page title
       
+      // The description shows up in the banner (optional) and the OpenGraph data of the page
+      "description": "The FPA General Code License was originally created as a way to permissively license our software for all without having to deal with commercial entities 'asset-ripping' code from our open projects.",
+      
+      // An array of the sections of the page (vertically laid out)
+      "content": [
+          {
+              "type": "banner|markdown|code" // can be either banner, markdown, or code
+              
+              // Banner makes a giant banner explaining the page
+              // Markdown allows you to put markdown onto the page
+              // Code allows you to embed a code example in the page
+          },
+      ]
     }
   ];
 }

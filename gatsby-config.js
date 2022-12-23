@@ -10,7 +10,7 @@
 module.exports = {
   siteMetadata: {
     title: `Fairfield Programming Association`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Our mission is to educate high-school and college-aged (ages 14-22) individuals about computer science, engineering, and programming. To do this, we create educational resources, scholastic aptitude exams, programming competitions, and other events.`,
     author: `@fairfieldprogramming`,
     siteUrl: `https://about.fairfieldprogramming.org`,
   },

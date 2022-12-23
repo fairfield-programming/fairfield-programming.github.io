@@ -13,27 +13,12 @@
 <img src="https://img.shields.io/github/languages/top/fairfield-programming/fairfield-programming.github.io" alt="GitHub top language">
 </p>
 
+The new Fairfield Programming Association website is built in Gatsby and uses Tailwind CSS for the styling. This enables us to keep down server costs while also providing an excellent user and developer experience. All of our pages are DSG ([Deferred Static Generation](https://www.gatsbyjs.com/docs/how-to/rendering-options/using-deferred-static-generation/)), which means that most of the information on the website can be changed by modifying the information inside of the data folder. 
+
 ## Features
 
+### Team Member System - [Example](https://about.fairfieldprogramming.org/team/william-mcgonagle)
+
+Every volunteer on the FPA Team has their own individual pages. This means that if you want to volunteer, you get a miniture resume explaining what you have done for the FPA, and how it has impacted others around you. Our hope is that these personal pages can help you in the future by showing how much you have helped us on our mission. 
+
 ## Contribute
-
-If you simply star the repo, this helps us out tremendiously. Past that, if you share this repo with your friends, that helps a lot too. If you are feeling super generous, then you can find some issues that you have with the website and try to help us with them.
-
-<p align="center">
-
-<a href="https://github.com/fairfield-programming/fairfield-programming.github.io/issues?q=label%3A%22good%20first%20issue%22">
-<img alt="GitHub labels" src="https://img.shields.io/github/labels/fairfield-programming/fairfield-programming.github.io/good%20first%20issue">
-</a>
-<a href="https://github.com/fairfield-programming/fairfield-programming.github.io/issues?q=label%3A%22help+wanted%22">
-<img alt="GitHub labels" src="https://img.shields.io/github/labels/fairfield-programming/fairfield-programming.github.io/help%20wanted">
-</a>
-<a href="https://github.com/fairfield-programming/fairfield-programming.github.io/issues?q=label%3A%22bug%22">
-<img alt="GitHub labels" src="https://img.shields.io/github/labels/fairfield-programming/fairfield-programming.github.io/bug">
-</a>
-<a href="https://github.com/fairfield-programming/fairfield-programming.github.io/issues?q=label%3A%22enhancement%22">
-<img alt="GitHub labels" src="https://img.shields.io/github/labels/fairfield-programming/fairfield-programming.github.io/enhancement">
-</a>
-
-</p>
-
-To start helping, you can click some of the above labels to jump to the pages with issues. Or, you can submit an issue by clicking the last button.

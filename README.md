@@ -21,8 +21,14 @@ The new Fairfield Programming Association website is built in Gatsby and uses Ta
 
 Every volunteer on the FPA Team has their own individual pages. This means that if you want to volunteer, you get a miniture resume explaining what you have done for the FPA, and how it has impacted others around you. Our hope is that these personal pages can help you in the future by showing how much you have helped us on our mission. 
 
-### Project Listings
+### Project Listings - [Example](https://about.fairfieldprogramming.org/programs/)
 
 One of the great things about the FPA is how many projects we run. From programming languages to Nasdaq-listed partnerships to in-person learning at underserved schools, the FPA does it all. But, we needed a way to show the world all of the cool and neat things we were working on. So, we added project listings that allow us to customize all the right information for each project page while still keeping consistent design and principals. 
 
 ## Contribute
+
+To contribute to this project, please see the [issues tab](https://github.com/fairfield-programming/fairfield-programming.github.io/issues). This will contain all of the things that we currently need help working on. 
+
+### How to Add Team Members
+
+Adding team members is quite simple– inside of the data folder we have a file named, [`data/team.json`](https://github.com/fairfield-programming/fairfield-programming.github.io/blob/master/data/team.json), which contains all of the team member information. To add a team member, just duplicate another team members data from the file and change the data inside of it. *Please add the new team member to the bottom of the file because we don't want problems with indexing and whatnot*. Once you've added in this new team member, submit your changes as a pull request and you are done!

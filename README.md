@@ -47,7 +47,7 @@ class Program {
   title = "Example Project";
   description = "This is an example project"; // Just a short description (20-25 words)
   since = "04-17-22"; // Follows ISO Date Format
-  joining = "To join, email John!" // A paragraph on how to join, with requirements (80-120 words)
+  joining = "To join, email John!"; // A paragraph on how to join, with requirements (80-120 words)
   
   // An array of sub-pages
   pages = [

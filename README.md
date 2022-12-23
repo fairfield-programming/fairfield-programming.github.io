@@ -21,4 +21,8 @@ The new Fairfield Programming Association website is built in Gatsby and uses Ta
 
 Every volunteer on the FPA Team has their own individual pages. This means that if you want to volunteer, you get a miniture resume explaining what you have done for the FPA, and how it has impacted others around you. Our hope is that these personal pages can help you in the future by showing how much you have helped us on our mission. 
 
+### Project Listings
+
+One of the great things about the FPA is how many projects we run. From programming languages to Nasdaq-listed partnerships to in-person learning at underserved schools, the FPA does it all. But, we needed a way to show the world all of the cool and neat things we were working on. So, we added project listings that allow us to customize all the right information for each project page while still keeping consistent design and principals. 
+
 ## Contribute

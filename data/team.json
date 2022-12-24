@@ -25,5 +25,17 @@
             1,
             4
         ]
+    },
+    {
+        "first": "Charles",
+        "last": "Ferragu",
+        "email": "ferraguc@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
+        "biography": "Charles Ferragu is an FPA board member who was born on November 13, 2006 and presently resides in Southport, Connecticut. When he learned that his dear friends William and Neil were launching a non-profit to help address the education shortfall, he decided to join and assist expand the organization with the hopes of impacting many lives.",
+        "works": "Works mainly with the charter-outreach and charter-events.",
+        "work": [
+            0,
+            1
+        ]
     }
 ]

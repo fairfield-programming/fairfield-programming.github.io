@@ -5,32 +5,12 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { getImage, getImageData, getSrc, StaticImage, GatsbyImage } from "gatsby-plugin-image"
-
-export function images() {
-  (
-    graphql`
-    query images {
-      allFile(
-        filter: {extension: {eq: "jpeg"}, sourceInstanceName: {eq: "instagram"}}
-      ) {
-        edges {
-          node {
-            childImageSharp {
-              gatsbyImageData
-            }
-          }
-        }
-      }
-    }
-  `)
-}
+import { getImage, GatsbyImage } from "gatsby-plugin-image"
 
 function IndexPage({ data }) {
 
   let generalData = require('../../data/general.json')
   let impactCount = generalData.impact.adults + generalData.impact.children;
-  console.log(data)
 
   return (
     <Layout>
@@ -116,4 +96,25 @@ function IndexPage({ data }) {
 
 export const Head = () => <Seo title="Home" />
 
+export function images() {
+  (
+    graphql`
+    query images {
+      allFile(
+        filter: {extension: {eq: "jpeg"}, sourceInstanceName: {eq: "instagram"}}
+      ) {
+        edges {
+          node {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
+      }
+    }
+  `)
+}
+
 export default IndexPage
+
+

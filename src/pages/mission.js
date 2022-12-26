@@ -4,27 +4,8 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { getImage, getImageData, getSrc,StaticImage, GatsbyImage } from "gatsby-plugin-image"
+import { getImage, GatsbyImage } from "gatsby-plugin-image"
 
-
-export function images() {
-  (
-    graphql`
-      query images {
-        allFile(
-          filter: { sourceInstanceName: {eq: "others"}}
-        ) {
-          edges {
-            node {
-              childImageSharp {
-                gatsbyImageData
-              }
-            }
-          }
-        }
-      }
-  `)
-}
 function MissionPage({data}) {
   let generalData = require('../../data/general.json')
 
@@ -81,4 +62,25 @@ function MissionPage({data}) {
 
 export const Head = () => <Seo title="Mission" />
 
+export function images() {
+  (
+    graphql`
+      query images {
+        allFile(
+          filter: { sourceInstanceName: {eq: "others"}}
+        ) {
+          edges {
+            node {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+          }
+        }
+      }
+  `)
+}
+
+
 export default MissionPage
+

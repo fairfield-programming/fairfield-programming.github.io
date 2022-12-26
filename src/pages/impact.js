@@ -4,26 +4,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { getImage, getImageData, getSrc,StaticImage, GatsbyImage } from "gatsby-plugin-image"
-
-export function images() {
-  (
-    graphql`
-      query images {
-        allFile(
-          filter: { sourceInstanceName: {eq: "others"}}
-        ) {
-          edges {
-            node {
-              childImageSharp {
-                gatsbyImageData
-              }
-            }
-          }
-        }
-      }
-  `)
-}
+import { getImage, GatsbyImage } from "gatsby-plugin-image"
 
 function ImpactPage({data}) {
   let generalData = require('../../data/general.json')
@@ -35,7 +16,6 @@ function ImpactPage({data}) {
 
   let childrenImpact = generalData.impact.children;
   let adultImpact = generalData.impact.adults;
-  console.log(data.allFile.edges[0].node.childImageSharp.gatsbyImageData)
 
 
   return (
@@ -137,5 +117,24 @@ function ImpactPage({data}) {
 }
 
 export const Head = () => <Seo title="Impact" />
+
+export function images() {
+  (
+    graphql`
+      query images {
+        allFile(
+          filter: { sourceInstanceName: {eq: "others"}}
+        ) {
+          edges {
+            node {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+          }
+        }
+      }
+  `)
+}
 
 export default ImpactPage

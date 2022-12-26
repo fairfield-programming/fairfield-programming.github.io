@@ -1,10 +1,31 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { getImage, getImageData, getSrc,StaticImage, GatsbyImage } from "gatsby-plugin-image"
 
-function MissionPage() {
+
+export function images() {
+  (
+    graphql`
+      query images {
+        allFile(
+          filter: { sourceInstanceName: {eq: "others"}}
+        ) {
+          edges {
+            node {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+          }
+        }
+      }
+  `)
+}
+function MissionPage({data}) {
   let generalData = require('../../data/general.json')
 
   return (
@@ -15,7 +36,7 @@ function MissionPage() {
         >
           <div class="mx-auto max-w-4xl text-center">
             <h1 class="text-3xl font-extrabold sm:text-5xl">
-            We're on a mission to teach everyone in the world to program.
+              We're on a mission to teach everyone in the world to program.
             </h1>
 
             <p class="mt-4 text-lg">
@@ -50,7 +71,7 @@ function MissionPage() {
             </div>
           </div>
           <div className="w-1/3 hidden text-slate-200 md:block">
-            <img className="w-full rounded" src={generalData.images?.general[1].src} alt={generalData.images?.general[0].alt} />
+            <GatsbyImage className="w-full rounded" image={getImage(data.allFile.edges[0].node.childImageSharp.gatsbyImageData)} alt={generalData.images?.general[0].alt} />
           </div>
         </div>
       </section>

@@ -10,9 +10,15 @@ export function images() {
   (
     graphql`
       query images {
-        allImageSharp {
-          nodes {
-            gatsbyImageData
+        allFile(
+          filter: { sourceInstanceName: {eq: "others"}}
+        ) {
+          edges {
+            node {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
           }
         }
       }
@@ -29,10 +35,8 @@ function ImpactPage({data}) {
 
   let childrenImpact = generalData.impact.children;
   let adultImpact = generalData.impact.adults;
-  
-  let image1 = getImage(data.allImageSharp.nodes[0])
-  console.log(data.allImageSharp.nodes[0])
-  //let image1 = getImageData(data.allDataJson.nodes[0].images.general[1].src)
+  console.log(data.allFile.edges[0].node.childImageSharp.gatsbyImageData)
+
 
   return (
     <Layout>
@@ -62,8 +66,7 @@ function ImpactPage({data}) {
             </div>
           </div>
           <div className="w-1/3 hidden md:block">
-            <img className="w-full rounded" src={generalData.images?.general[1].src} alt={generalData.images?.general[0].alt} />
-            <GatsbyImage className="w-full rounded" image={image1} alt=''/>
+            <GatsbyImage className="w-full rounded" image={getImage(data.allFile.edges[0].node.childImageSharp.gatsbyImageData)} alt={generalData.images?.general[0].alt}/>
           </div>
         </div>
       </section>

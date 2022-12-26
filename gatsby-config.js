@@ -16,8 +16,9 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-postcss',
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-plugin-robots-txt',
@@ -27,6 +28,22 @@ module.exports = {
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `instagram`,
+        path: `${__dirname}/public/photos/instagram/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `others`,
+        path: `${__dirname}/public/photos/others/`,
+      },
+    },
+    
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

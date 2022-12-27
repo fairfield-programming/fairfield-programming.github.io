@@ -2,7 +2,7 @@
 <img width="200" src="https://raw.githubusercontent.com/fairfield-programming/backend-server/d84cd53499177b9069d3a0a72c80701627190c18/.github/media/logo-full.svg">
 </p>
 
-# Fairfield Programming Association Frontend [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20the%20FPA%20homepage,%20built%20with%20gatsby%20and%20tailwind&url=https://github.com/fairfield-programming/fairfield-programming.github.io)
+# Fairfield Programming Association Frontend [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20the%20FPA%20homepage,%20built%20with%20Gatsby%20and%20Tailwind&url=https://github.com/fairfield-programming/fairfield-programming.github.io)
 
 <p align="left">
 <img src="https://img.shields.io/github/contributors/fairfield-programming/fairfield-programming.github.io" alt="GitHub contributors">

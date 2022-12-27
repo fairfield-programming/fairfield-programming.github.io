@@ -1,13 +1,10 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { graphql } from "gatsby"
-
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { getImage, GatsbyImage } from "gatsby-plugin-image"
 
-function IndexPage({ data }) {
+function IndexPage() {
 
   let generalData = require('../../data/general.json')
   let impactCount = generalData.impact.adults + generalData.impact.children;
@@ -59,7 +56,7 @@ function IndexPage({ data }) {
           </div>
           <div className="w-1/3 hidden text-slate-200 md:block">
             {
-            <GatsbyImage className="w-full rounded" image={getImage(data.allFile.edges[5].node.childImageSharp.gatsbyImageData)} alt={generalData.images?.general[0].alt} />
+            <img className="w-full rounded" image={generalData.images?.general[0].src} alt={generalData.images?.general[0].alt} />
   }
           </div>
         </div>
@@ -79,8 +76,8 @@ function IndexPage({ data }) {
         </div>
         <div className="w-4/5 mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-1">
           {
-            data.allFile.edges.map(edge => <a href={"/"}> <GatsbyImage className="rounded h-48 w-full object-cover" image={getImage(edge.node.childImageSharp.gatsbyImageData)} alt="A picture featuring people helping with the global education movement." /></a>)
-} 
+            generalData.images?.instagram?.map(image => <a href={"/"}> <img className="rounded h-48 w-full object-cover" image={image.src} alt={image.alt} /></a>)
+          }
         </div>
       </section>
       <section className="bg-white w-full px-16 py-8 flex align-center justify-center">
@@ -95,25 +92,6 @@ function IndexPage({ data }) {
 }
 
 export const Head = () => <Seo title="Home" />
-
-export function images() {
-  (
-    graphql`
-    query images {
-      allFile(
-        filter: {extension: {eq: "jpeg"}, sourceInstanceName: {eq: "instagram"}}
-      ) {
-        edges {
-          node {
-            childImageSharp {
-              gatsbyImageData
-            }
-          }
-        }
-      }
-    }
-  `)
-}
 
 export default IndexPage
 

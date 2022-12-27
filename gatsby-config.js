@@ -29,22 +29,6 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `instagram`,
-        path: `${__dirname}/public/photos/instagram/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `others`,
-        path: `${__dirname}/public/photos/others/`,
-      },
-    },
-    
-
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Fairfield Programming Association`,

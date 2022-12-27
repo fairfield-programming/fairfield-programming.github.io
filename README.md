@@ -37,7 +37,7 @@ One of the great things about the FPA is how many projects we run. From programm
 npm install
 ```
 
-4. Run the below command to start the website
+4. Run the below command to start the website.
 
 ```bash
 gatsby develop

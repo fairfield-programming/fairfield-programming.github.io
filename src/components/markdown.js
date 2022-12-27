@@ -28,7 +28,7 @@ const Markdown = ({ data }) => {
         if (line.startsWith('#### ')) return <h4 className={styles["h4"]}>{line.slice(5)}</h4>
         if (line.startsWith('##### ')) return <h5 className={styles["h5"]}>{line.slice(5)}</h5>
 
-        if (line == "") return;
+        if (line === "") return;
 
         return <p className={styles["p"]}>{line}</p>;
 

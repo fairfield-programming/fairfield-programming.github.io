@@ -3,7 +3,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-function MissionPage() {
+function MissionPage({data}) {
   let generalData = require('../../data/general.json')
 
   return (
@@ -14,7 +14,7 @@ function MissionPage() {
         >
           <div class="mx-auto max-w-4xl text-center">
             <h1 class="text-3xl font-extrabold sm:text-5xl">
-            We're on a mission to teach everyone in the world to program.
+              We're on a mission to teach everyone in the world to program.
             </h1>
 
             <p class="mt-4 text-lg">
@@ -49,7 +49,7 @@ function MissionPage() {
             </div>
           </div>
           <div className="w-1/3 hidden text-slate-200 md:block">
-            <img className="w-full rounded" src={generalData.images?.general[1].src} alt={generalData.images?.general[0].alt} />
+            <image className="w-full rounded" image={generalData.images?.general[0].src} alt={generalData.images?.general[0].alt} />
           </div>
         </div>
       </section>
@@ -60,3 +60,4 @@ function MissionPage() {
 export const Head = () => <Seo title="Mission" />
 
 export default MissionPage
+

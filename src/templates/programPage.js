@@ -57,9 +57,9 @@ const Program = ({ pageContext }) => {
   return <Layout>
     {content.map(section => {
 
-        if (section.type == "banner") return <SectionBanner context={pageContext} section={section} />
-        if (section.type == "markdown") return <SectionMarkdown context={pageContext} section={section} />
-        if (section.type == "code") return <SectionCode context={pageContext} section={section} />
+        if (section.type === "banner") return <SectionBanner context={pageContext} section={section} />
+        if (section.type === "markdown") return <SectionMarkdown context={pageContext} section={section} />
+        if (section.type === "code") return <SectionCode context={pageContext} section={section} />
 
     })}
   </Layout> 

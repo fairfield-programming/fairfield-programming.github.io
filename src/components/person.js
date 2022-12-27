@@ -1,4 +1,5 @@
 import * as React from "react"
+import { GatsbyImage } from "gatsby-plugin-image";
 
 function Person({ first, last, photo, biography }) {
 

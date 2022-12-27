@@ -16,8 +16,9 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-postcss',
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-plugin-robots-txt',

@@ -1,6 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
-
 import Logo from "../res/fpa.svg";
 
 const Footer = ({ siteTitle }) => {

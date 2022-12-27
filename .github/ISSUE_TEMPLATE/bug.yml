@@ -2,7 +2,7 @@ name: 🐛 Bug
 
 description: Report an issue to help improve the project.
 
-labels: ["🛠 goal: fix"]
+labels: ["bug"]
 
 body:
 
@@ -54,4 +54,4 @@ body:
 
       value: |
       
-        Feel free to check out other cool repositories of the fairfield-programming [here](https://github.com/fairfield-programming)
+        Feel free to check out other cool repositories of the [Fairfield Programming Association](https://github.com/fairfield-programming).

@@ -25,6 +25,26 @@ Every volunteer on the FPA Team has their own individual pages. This means that 
 
 One of the great things about the FPA is how many projects we run. From programming languages to Nasdaq-listed partnerships to in-person learning at underserved schools, the FPA does it all. But, we needed a way to show the world all of the cool and neat things we were working on. So, we added project listings that allow us to customize all the right information for each project page while still keeping consistent design and principals. 
 
+## Setup
+
+1. Download the project from Github.
+
+2. Have Node, NPM, and Gatsby installed.
+
+3. Run the below command to install the packages.
+
+```bash
+npm install
+```
+
+4. Run the below command to start the website
+
+```bash
+gatsby develop
+```
+
+**Note:** It can take anywhere from a few seconds to a few minutes to start the website, but once the website is live, it does [hot reloading](https://www.gatsbyjs.com/docs/reference/local-development/fast-refresh/).
+
 ## Contribute
 
 To contribute to this project, please see the [issues tab](https://github.com/fairfield-programming/fairfield-programming.github.io/issues). This will contain all of the things that we currently need help working on. 

@@ -49,7 +49,7 @@ function MissionPage({data}) {
             </div>
           </div>
           <div className="w-1/3 hidden text-slate-200 md:block">
-            <image className="w-full rounded" image={generalData.images?.general[0].src} alt={generalData.images?.general[0].alt} />
+            <image className="w-full rounded" src={generalData.images?.general[0].src} alt={generalData.images?.general[0].alt} />
           </div>
         </div>
       </section>

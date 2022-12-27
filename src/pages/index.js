@@ -1,10 +1,13 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { graphql } from "gatsby"
+
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { getImage, GatsbyImage } from "gatsby-plugin-image"
 
-function IndexPage() {
+function IndexPage({ data }) {
 
   let generalData = require('../../data/general.json')
   let impactCount = generalData.impact.adults + generalData.impact.children;
@@ -17,7 +20,7 @@ function IndexPage() {
         >
           <div class="mx-auto max-w-xl text-center">
             <h1 class="text-3xl font-extrabold sm:text-5xl">
-            With Your Help,
+              With Your Help,
               <strong class="font-extrabold text-active sm:block">
                 &nbsp;Everyone Can Learn.
               </strong>
@@ -44,7 +47,7 @@ function IndexPage() {
             </div>
           </div>
         </div>
-      </section> 
+      </section>
       <section>
         <div className="max-w-6xl mx-auto pb-16 px-4 flex">
           <div className="w-full md:w-2/3">
@@ -54,8 +57,10 @@ function IndexPage() {
               <a className="text-lg underline" href="/mission">Learn More About the Mission</a>
             </div>
           </div>
-          <div className="w-1/3 hidden md:block">
-              <img className="w-full rounded" src={generalData.images?.general[0].src} alt={generalData.images?.general[0].alt} />
+          <div className="w-1/3 hidden text-slate-200 md:block">
+            {
+            <GatsbyImage className="w-full rounded" image={getImage(data.allFile.edges[5].node.childImageSharp.gatsbyImageData)} alt={generalData.images?.general[0].alt} />
+  }
           </div>
         </div>
       </section>
@@ -74,10 +79,8 @@ function IndexPage() {
         </div>
         <div className="w-4/5 mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-1">
           {
-            generalData.images.instagram.map(item => <a href={item.href || "/"}>
-              <img className="rounded h-48 w-full object-cover" src={item.src} alt="A picture featuring people helping with the global education movement." />
-            </a>)
-          }
+            data.allFile.edges.map(edge => <a href={"/"}> <GatsbyImage className="rounded h-48 w-full object-cover" image={getImage(edge.node.childImageSharp.gatsbyImageData)} alt="A picture featuring people helping with the global education movement." /></a>)
+} 
         </div>
       </section>
       <section className="bg-white w-full px-16 py-8 flex align-center justify-center">
@@ -93,4 +96,25 @@ function IndexPage() {
 
 export const Head = () => <Seo title="Home" />
 
+export function images() {
+  (
+    graphql`
+    query images {
+      allFile(
+        filter: {extension: {eq: "jpeg"}, sourceInstanceName: {eq: "instagram"}}
+      ) {
+        edges {
+          node {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
+      }
+    }
+  `)
+}
+
 export default IndexPage
+
+

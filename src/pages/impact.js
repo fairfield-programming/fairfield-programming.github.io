@@ -1,10 +1,12 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { getImage, GatsbyImage } from "gatsby-plugin-image"
 
-function ImpactPage() {
+function ImpactPage({data}) {
   let generalData = require('../../data/general.json')
   let impactNumber = generalData.impact.adults + generalData.impact.children;
 
@@ -15,6 +17,7 @@ function ImpactPage() {
   let childrenImpact = generalData.impact.children;
   let adultImpact = generalData.impact.adults;
 
+
   return (
     <Layout>
       <section>
@@ -24,11 +27,11 @@ function ImpactPage() {
           <div class="mx-auto max-w-4xl text-center">
             <h2 className="text-xl uppercase font-bold tracking-wider mb-4">Our Global Impact</h2>
             <h1 class="text-6xl font-extrabold sm:text-8xl">
-            {impactNumber.toLocaleString()}
+              {impactNumber.toLocaleString()}
             </h1>
 
             <p class="mt-4 text-lg">
-                students have learned to program with the FPA since September 2022.
+              students have learned to program with the FPA since September 2022.
             </p>
           </div>
         </div>
@@ -43,7 +46,7 @@ function ImpactPage() {
             </div>
           </div>
           <div className="w-1/3 hidden md:block">
-            <img className="w-full rounded" src={generalData.images?.general[1].src} alt={generalData.images?.general[0].alt} />
+            <GatsbyImage className="w-full rounded" image={getImage(data.allFile.edges[0].node.childImageSharp.gatsbyImageData)} alt={generalData.images?.general[0].alt}/>
           </div>
         </div>
       </section>
@@ -59,7 +62,7 @@ function ImpactPage() {
                   {boyImpact.toLocaleString()}
                 </p>
                 <p class="mt-4 text-lg">
-                    boys have learned since September 2022.
+                  boys have learned since September 2022.
                 </p>
               </div>
               <div className="w-full h-full flex align-center justify-center flex-col">
@@ -67,7 +70,7 @@ function ImpactPage() {
                   {girlImpact.toLocaleString()}
                 </p>
                 <p class="mt-4 text-lg">
-                    girls have learned since September 2022.
+                  girls have learned since September 2022.
                 </p>
               </div>
               <div className="w-full h-full flex align-center justify-center flex-col">
@@ -75,7 +78,7 @@ function ImpactPage() {
                   {nonBinaryImpact.toLocaleString()}
                 </p>
                 <p class="mt-4 text-lg">
-                    non-binary students have learned since September 2022.
+                  non-binary students have learned since September 2022.
                 </p>
               </div>
             </div>
@@ -94,7 +97,7 @@ function ImpactPage() {
                   {childrenImpact.toLocaleString()}
                 </p>
                 <p class="mt-4 text-lg">
-                    children have learned since September 2022.
+                  children have learned since September 2022.
                 </p>
               </div>
               <div className="w-full h-full flex align-center justify-center flex-col">
@@ -102,7 +105,7 @@ function ImpactPage() {
                   {adultImpact.toLocaleString()}
                 </p>
                 <p class="mt-4 text-lg">
-                    adults have learned since September 2022.
+                  adults have learned since September 2022.
                 </p>
               </div>
             </div>
@@ -114,5 +117,24 @@ function ImpactPage() {
 }
 
 export const Head = () => <Seo title="Impact" />
+
+export function images() {
+  (
+    graphql`
+      query images {
+        allFile(
+          filter: { sourceInstanceName: {eq: "others"}}
+        ) {
+          edges {
+            node {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+          }
+        }
+      }
+  `)
+}
 
 export default ImpactPage

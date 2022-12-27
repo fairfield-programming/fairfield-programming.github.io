@@ -55,7 +55,7 @@ function IndexPage() {
           </div>
           <div className="w-1/3 hidden text-slate-200 md:block">
             {
-            <img className="w-full rounded" image={generalData.images?.general[0].src} alt={generalData.images?.general[0].alt} />
+            <img className="w-full rounded" src={generalData.images?.general[0].src} alt={generalData.images?.general[0].alt} />
   }
           </div>
         </div>
@@ -75,7 +75,7 @@ function IndexPage() {
         </div>
         <div className="w-4/5 mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-1">
           {
-            generalData.images?.instagram?.map(image => <a href={"/"}> <img className="rounded h-48 w-full object-cover" image={image.src} alt={image.alt} /></a>)
+            generalData.images?.instagram?.map(image => <a href={"/"}> <img className="rounded h-48 w-full object-cover" src={image.src} alt={image.alt} /></a>)
           }
         </div>
       </section>

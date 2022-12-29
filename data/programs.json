@@ -96,6 +96,12 @@
                     ]
                 }
             ]
+        },
+        {
+            "slug": "fpa-vault",
+            "title": "The Vault",
+            "description": "The Vault is an open-source standards platform similar to W3, IETF, IEEE, and specification organizations, but with less red-tape.",
+            "since": "2022-12-24"
         }
     ]
 }

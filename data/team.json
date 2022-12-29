@@ -39,6 +39,26 @@
         ]
     },
     {
+        "first": "Jamie",
+        "last": "Davis",
+        "email": "davisj@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
+        "work": [
+            0,
+            1
+        ]
+    },
+    {
+        "first": "Tristan",
+        "last": "Ebrahimi",
+        "email": "ebrahimit@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
+        "work": [
+            0,
+            1
+        ]
+    },
+    {
         "first": "Hanzi",
         "last": "Li",
         "email": "lih@fairfieldprogramming.org",

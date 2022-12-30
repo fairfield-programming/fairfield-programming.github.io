@@ -102,6 +102,12 @@
             "title": "The Vault",
             "description": "The Vault is an open-source standards platform similar to W3, IETF, IEEE, and specification organizations, but with less red-tape.",
             "since": "2022-12-24"
+        },
+        {
+            "slug": "fpa-games",
+            "title": "FPA Games",
+            "description": "A Partnership between Preponderous Software, the FPA, and Unity Software to create Open Source Games for free",
+            "since": "2022-12-18"
         }
     ]
 }

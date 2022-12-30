@@ -31,6 +31,6 @@ function ProgramsPage() {
   )
 }
 
-export const Head = () => <Seo title="Programs" />
+export const Head = () => <Seo title="Our Team" />
 
 export default ProgramsPage

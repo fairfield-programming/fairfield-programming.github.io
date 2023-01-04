@@ -1,6 +1,6 @@
 import * as React from "react"
 import Logo from "../res/fpa.svg";
-
+import { Link } from "gatsby"
 const Footer = ({ siteTitle }) => {
 
   const programs = require('../../data/programs.json').programs
@@ -142,9 +142,9 @@ const Footer = ({ siteTitle }) => {
               <ul class="space-y-4 text-sm">
                 {
                   programs.filter((n, i) => i < 4).map(program => <li>
-                    <a href={`/programs/${program.slug}`} class="text-gray-700 transition hover:opacity-75">
+                    <Link to={`/programs/${program.slug}`} class="text-gray-700 transition hover:opacity-75">
                       {program.title}
-                    </a>
+                    </Link>
                   </li>)
                 }
               </ul>
@@ -157,21 +157,21 @@ const Footer = ({ siteTitle }) => {
             <nav aria-label="Footer Navigation - Organization" class="mt-6">
               <ul class="space-y-4 text-sm">
                 <li>
-                  <a href="/mission" class="text-gray-700 transition hover:opacity-75">
+                  <Link to="/mission" class="text-gray-700 transition hover:opacity-75">
                     About
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="/team" class="text-gray-700 transition hover:opacity-75">
+                  <Link to="/team" class="text-gray-700 transition hover:opacity-75">
                     Meet the Team
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="/contact" class="text-gray-700 transition hover:opacity-75">
+                  <Link to="/contact" class="text-gray-700 transition hover:opacity-75">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -183,27 +183,27 @@ const Footer = ({ siteTitle }) => {
             <nav aria-label="Footer Navigation - Company" class="mt-6">
               <ul class="space-y-4 text-sm">
                 <li>
-                  <a href="/documents" class="text-gray-700 transition hover:opacity-75">
+                  <Link to="/documents" class="text-gray-700 transition hover:opacity-75">
                     Documents
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="/press" class="text-gray-700 transition hover:opacity-75">
+                  <Link to="/press" class="text-gray-700 transition hover:opacity-75">
                     Press and Media
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="/faq" class="text-gray-700 transition hover:opacity-75">
+                  <Link to="/faq" class="text-gray-700 transition hover:opacity-75">
                     FAQs
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="/support" class="text-gray-700 transition hover:opacity-75">
+                  <Link to="/support" class="text-gray-700 transition hover:opacity-75">
                     Donate
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -215,21 +215,21 @@ const Footer = ({ siteTitle }) => {
             <nav aria-label="Footer Navigation - Legal" class="mt-6">
               <ul class="space-y-4 text-sm">
                 <li>
-                  <a href="/accessibility" class="text-gray-700 transition hover:opacity-75">
+                  <Link to="/accessibility" class="text-gray-700 transition hover:opacity-75">
                     Accessibility
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="/terms" class="text-gray-700 transition hover:opacity-75">
+                  <Link to="/terms" class="text-gray-700 transition hover:opacity-75">
                     Terms and Conditions
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="/privacy" class="text-gray-700 transition hover:opacity-75">
+                  <Link to="/privacy" class="text-gray-700 transition hover:opacity-75">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

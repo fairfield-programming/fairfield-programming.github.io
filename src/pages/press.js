@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -29,7 +29,7 @@ function PressPage() {
                 <div class="space-y-4 w-full">
                     <ul>
                         { 
-                            releases.map(item => <li class="list-disc mb-4"><a class="text-sky-400 hover:text-sky-500 hover:underline" href={item.path}>{item.name}</a></li>)
+                            releases.map(item => <li class="list-disc mb-4"><Link class="text-sky-400 hover:text-sky-500 hover:underline" to={item.path}>{item.name}</Link></li>)
                         }
                     </ul>
                 </div>

@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -22,19 +22,19 @@ function MissionPage({data}) {
             </p>
 
             <div class="mt-8 flex flex-wrap justify-center gap-4">
-              <a
+              <Link
                 class="block w-full rounded bg-active px-12 py-3 text-sm font-medium text-white shadow hover:bg-active focus:outline-none focus:ring active:bg-active sm:w-auto"
-                href="/support"
+                to="/support"
               >
                 Support
-              </a>
+              </Link>
 
-              <a
+              <Link
                 class="block w-full rounded px-12 py-3 text-sm font-medium text-active shadow hover:text-active focus:outline-none focus:ring active:text-active sm:w-auto"
-                href="/impact"
+                to="/impact"
               >
                 Our Impact
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ function MissionPage({data}) {
             <h2 className="font-bold text-white text-4xl mb-4">The One Student Promise.</h2>
             {generalData.mission?.oneStudentPromise?.map(text => <p className="mb-2 text-white text-md">{text}</p>)}
             <div className="mt-8">
-              <a className="text-lg text-white underline" href="/support">Learn More About What Your Support Does</a>
+              <Link className="text-lg text-white underline" to="/support">Learn More About What Your Support Does</Link>
             </div>
           </div>
           <div className="w-1/3 hidden text-slate-200 md:block">

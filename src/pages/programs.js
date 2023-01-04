@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Program from "../components/program"
@@ -27,19 +27,19 @@ function ProgramsPage() {
             </p>
 
             <div class="mt-8 flex flex-wrap justify-center gap-4">
-              <a
+              <Link
                 class="block w-full rounded bg-active px-12 py-3 text-sm font-medium text-white shadow hover:bg-active focus:outline-none focus:ring active:bg-active sm:w-auto"
-                href="/support"
+                to="/support"
               >
                 Support
-              </a>
+              </Link>
 
-              <a
+              <Link
                 class="block w-full rounded px-12 py-3 text-sm font-medium text-active shadow hover:text-active focus:outline-none focus:ring active:text-active sm:w-auto"
-                href="/impact"
+                to="/impact"
               >
                 Our Impact
-              </a>
+              </Link>
             </div>
           </div>
         </div>

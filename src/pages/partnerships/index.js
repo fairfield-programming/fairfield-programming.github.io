@@ -1,16 +1,17 @@
 import * as React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
 function Partner({ title, slug, description }) {
 
-  return <a className="block w-full h-full" href={`/partnerships/${slug}`}>
+  return <Link className="block w-full h-full" to={`/partnerships/${slug}`}>
     <div className="rounded shadow p-4">
         <h3 className="text-lg font-bold">{title}</h3>
         <p className="text-md">{description || ""}</p>
     </div>
-  </a>
+  </Link>
 
 }
 
@@ -34,19 +35,19 @@ function MissionPage() {
             </p>
 
             <div class="mt-8 flex flex-wrap justify-center gap-4">
-              <a
+              <Link
                 class="block w-full rounded bg-active px-12 py-3 text-sm font-medium text-white shadow hover:bg-active focus:outline-none focus:ring active:bg-active sm:w-auto"
-                href="/partnerships/partner"
+                to="/partnerships/partner"
               >
                 Become a Partner
-              </a>
+              </Link>
 
-              <a
+              <Link
                 class="block w-full rounded px-12 py-3 text-sm font-medium text-active shadow hover:text-active focus:outline-none focus:ring active:text-active sm:w-auto"
-                href="/partnerships/#about"
+                to="/partnerships/#about"
               >
                 Learn More
-              </a>
+              </Link>
             </div>
           </div>
         </div>

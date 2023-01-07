@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -27,19 +27,19 @@ function IndexPage() {
             </p>
 
             <div class="mt-8 flex flex-wrap justify-center gap-4">
-              <a
+              <Link
                 class="block w-full rounded bg-active px-12 py-3 text-sm font-medium text-white shadow hover:bg-active focus:outline-none focus:ring active:bg-active sm:w-auto"
-                href="/support"
+                to="/support"
               >
                 Support
-              </a>
+              </Link>
 
-              <a
+              <Link
                 class="block w-full rounded px-12 py-3 text-sm font-medium text-active shadow hover:text-active focus:outline-none focus:ring active:text-active sm:w-auto"
-                href="/impact"
+                to="/impact"
               >
                 Our Impact
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ function IndexPage() {
             <h2 className="font-bold text-4xl mb-4">One World. One Mission.</h2>
             {generalData.mission?.description?.map(text => <p className="mb-2 text-lg">{text}</p>)}
             <div className="mt-4">
-              <a className="text-lg underline" href="/mission">Learn More About the Mission</a>
+              <Link className="text-lg underline" to="/mission">Learn More About the Mission</Link>
             </div>
           </div>
           <div className="w-1/3 hidden text-slate-200 md:block">
@@ -65,7 +65,7 @@ function IndexPage() {
           <h2 className="text-xl uppercase text-white font-bold tracking-wider mb-4">Our Global Impact</h2>
           <p className="text-8xl font-bold text-white">{impactCount.toLocaleString()}</p>
           <p className="text-white">students have learned to program with the FPA since September 2022.</p>
-          <a className="block underline text-white mt-4" href="/impact">More About Impact</a>
+          <Link className="block underline text-white mt-4" to="/impact">More About Impact</Link>
         </div>
       </section>
       <section className="w-full px-4 py-8 mt-16">
@@ -75,7 +75,7 @@ function IndexPage() {
         </div>
         <div className="w-4/5 mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-1">
           {
-            generalData.images?.instagram?.map(image => <a href={"/"}> <img className="rounded h-48 w-full object-cover" src={image.src} alt={image.alt} /></a>)
+            generalData.images?.instagram?.map(image => <Link to={"/"}> <img className="rounded h-48 w-full object-cover" src={image.src} alt={image.alt} /></Link>)
           }
         </div>
       </section>

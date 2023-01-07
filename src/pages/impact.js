@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -39,7 +39,7 @@ function ImpactPage() {
             <h2 className="font-bold text-white text-4xl mb-4">The One Student Promise.</h2>
             {generalData.mission?.oneStudentPromise?.map(text => <p className="mb-2 text-white text-md">{text}</p>)}
             <div className="mt-8">
-              <a className="text-lg text-white underline" href="/support">Learn More About What Your Support Does</a>
+              <Link className="text-lg text-white underline" to="/support">Learn More About What Your Support Does</Link>
             </div>
           </div>
           <div className="w-1/3 hidden md:block">

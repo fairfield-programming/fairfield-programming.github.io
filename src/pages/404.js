@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -14,7 +14,7 @@ const NotFoundPage = () => (
         <hr />
         <div className="px-6 py-4">
           Make sure the address is correct. If you think this is a mistake,
-          <a href="/contact" className="ml-1 text-orange-400">contact us</a>
+          <Link href="/contact" className="ml-1 text-orange-400">contact us</Link>
         </div>
       </div>
     </div>

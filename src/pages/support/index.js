@@ -23,6 +23,17 @@ function MissionPage() {
           </div>
         </div>
       </section>
+      <section className="px-16 py-4">
+        <script src="https://donorbox.org/widget.js" paypalExpress="false"></script>
+        <div className="lg:flex flex-row">
+          <div className="w-full">
+            <iframe src="https://donorbox.org/embed/join-the-fpa" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style={{ "width": "100%", "max-width": "500px", "min-width": "310px", "max-height": "none !important"}}></iframe>
+          </div>
+          <div className="w-full">
+            <iframe frameborder="0" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/join-the-fpa?only_donor_wall=true" style={{ "width": "100%", "max-width": "500px", "min-width": "310px", "max-height": "none !important"}}></iframe>
+          </div>
+        </div>
+      </section>
       <section className="bg-active px-4 py-16">
         <div class="flex flex-row gap-4">
             <div class="w-1/3 bg-white rounded p-8">

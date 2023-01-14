@@ -5,12 +5,12 @@ import Seo from "../components/seo"
 
 import Markdown from "../components/markdown"
 
-function AccessibilityPage() {
+function AccessibilityPage({location}) {
 
     const fileData = require('!!raw-loader!../../data/accessibility.txt')
 
     return (
-        <Layout>
+        <Layout location={location} crumbLabel="Accessibility">
             <section>
                 <div
                 class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"

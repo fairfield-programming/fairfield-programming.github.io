@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Program from "../components/program"
 
-function ProgramsPage() {
+function ProgramsPage({location}) {
 
   let generalData = require('../../data/general.json')
   let programData = require('../../data/programs.json')
@@ -12,7 +12,7 @@ function ProgramsPage() {
   let programs = programData.programs;
 
   return (
-    <Layout>
+    <Layout location={location} crumbLabel="programs" >
       <section>
         <div
           class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"

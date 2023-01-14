@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.breadcrumb__list{
+    display: flex;
+    gap: .5rem;
+    padding: .4rem;
+}
+.breadcrumb__item{
+    color: #999999 !important;
+    font-weight: 400;
+}
+.breadcrumb__link:hover{
+    text-decoration: underline;
+}
+.breadcrumb__link__active{
+    color: #4f71ed;
+    font-weight: 500;
+}

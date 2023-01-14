@@ -40,5 +40,19 @@ module.exports = {
         icon: `src/res/favicon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-breadcrumb`,
+      options: {
+        // defaultCrumb: optional To create a default crumb
+        // see Click Tracking default crumb example below
+        defaultCrumb: {
+          location: {
+            pathname: "/",
+          },
+          crumbLabel: "Home",
+          crumbSeparator: " /",
+        },
+      }
+    },
   ],
 }

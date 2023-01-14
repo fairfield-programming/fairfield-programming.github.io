@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-function ImpactPage() {
+function ImpactPage({location}) {
   let generalData = require('../../data/general.json')
   let impactNumber = generalData.impact.adults + generalData.impact.children;
 
@@ -16,7 +16,7 @@ function ImpactPage() {
 
 
   return (
-    <Layout>
+    <Layout location={location} crumbLabel="Impact">
       <section>
         <div
           class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"

@@ -3,11 +3,11 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-function PressPage() {
+function PressPage({location}) {
     const releases = require('../../data/general.json').press
 
   return (
-    <Layout>
+    <Layout location={location} crumbLabel="Press">
         <section>
             <div
             class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"

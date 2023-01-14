@@ -9,12 +9,14 @@ import * as React from "react"
 
 import Header from "./header"
 import Footer from "./footer"
+import {Breadcrumb} from 'gatsby-plugin-breadcrumb'
 
-const Layout = ({ children }) => {
+const Layout = ({ children,location='',crumbLabel }) => {
   
   return (
     <>
       <Header />
+      <Breadcrumb location={location} crumbLabel={crumbLabel} />
       <main>{children}</main>
       <Footer />
     </>

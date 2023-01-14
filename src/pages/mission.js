@@ -3,11 +3,11 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-function MissionPage({data}) {
+function MissionPage({data,location}) {
   let generalData = require('../../data/general.json')
 
   return (
-    <Layout>
+    <Layout location={location} crumbLabel="mission">
       <section>
         <div
           class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"

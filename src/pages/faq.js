@@ -3,12 +3,12 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-function PartnerPage() {
+function PartnerPage({location}) {
   let generalData = require('../../data/general.json')
     const faq = generalData.faq;
 
   return (
-    <Layout>
+    <Layout location={location} crumbLabel="FAQs">
       <section>
         <div
           class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"

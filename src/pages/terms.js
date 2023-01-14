@@ -5,12 +5,12 @@ import Seo from "../components/seo"
 
 import Markdown from "../components/markdown"
 
-function TermsPage() {
+function TermsPage({location}) {
 
     const fileData = require('!!raw-loader!../../data/terms-and-conditions.txt')
 
   return (
-    <Layout>
+    <Layout location={location} crumbLabel="Terms">
         <section>
             <div
             class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"

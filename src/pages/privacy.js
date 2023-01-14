@@ -5,12 +5,12 @@ import Seo from "../components/seo"
 
 import Markdown from "../components/markdown"
 
-function PrivacyPage() {
+function PrivacyPage({location}) {
 
     const fileData = require('!!raw-loader!../../data/privacy-policy.txt')
 
   return (
-    <Layout>
+    <Layout location={location} crumbLabel="Privacy">
         <section>
             <div
             class="mx-auto max-w-screen-xl px-4 py-48 lg:flex lg:items-center"

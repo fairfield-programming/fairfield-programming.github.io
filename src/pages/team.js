@@ -5,14 +5,14 @@ import Seo from "../components/seo"
 
 import Person from "../components/person"
 
-function ProgramsPage() {
+function ProgramsPage({location}) {
   const [search, setSearch] = React.useState("")
 
   let generalData = require("../../data/general.json")
   let teamMembers = require("../../data/team.json")
 
   return (
-    <Layout>
+    <Layout location={location} crumbLabel="Team">
       <section>
         <div class="mx-auto max-w-6xl px-4 pb-16 flex flex-col mt-8">
           <h2 className="font-bold text-4xl mb-4">Our Team</h2>

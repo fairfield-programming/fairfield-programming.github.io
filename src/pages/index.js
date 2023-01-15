@@ -3,13 +3,13 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-function IndexPage() {
+function IndexPage({location}) {
 
   let generalData = require('../../data/general.json')
   let impactCount = generalData.impact.adults + generalData.impact.children;
 
   return (
-    <Layout>
+    <Layout location={location} crumbLabel="Home">
       <section>
         <div
           class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"

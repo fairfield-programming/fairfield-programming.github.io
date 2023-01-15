@@ -3,11 +3,11 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-function PressPage() {
+function PressPage({location}) {
     const documents = require('../../data/general.json').documents
 
   return (
-    <Layout>
+    <Layout location={location} crumbLabel="Documents">
         <section>
             <div
             class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"

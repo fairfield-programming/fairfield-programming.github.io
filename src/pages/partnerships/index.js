@@ -15,12 +15,12 @@ function Partner({ title, slug, description }) {
 
 }
 
-function MissionPage() {
+function MissionPage({location}) {
   let generalData = require('../../../data/general.json')
   let partnerData = require('../../../data/partners.json')
 
   return (
-    <Layout>
+    <Layout location={location} crumbLabel="Parthership">
       <section>
         <div
           class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"

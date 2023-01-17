@@ -57,7 +57,7 @@ function MissionPage({data,location}) {
   )
 }
 
-export const Head = () => <Seo title="Mission" />
+export const Head = () => <Seo title="Mission" breadcrumbs={{ "Home": "https://about.fairfieldprogramming.org/", "Mission": "https://about.fairfieldprogramming.org/mission" }} />
 
 export default MissionPage
 

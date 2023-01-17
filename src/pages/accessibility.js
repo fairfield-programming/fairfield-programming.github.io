@@ -32,6 +32,6 @@ function AccessibilityPage({location}) {
     )
 }
 
-export const Head = () => <Seo title="Accessibility" />
+export const Head = () => <Seo title="Accessibility" breadcrumbs={{ "Home": "https://about.fairfieldprogramming.org/", "Accessibility": "https://about.fairfieldprogramming.org/accessibility" }} />
 
 export default AccessibilityPage

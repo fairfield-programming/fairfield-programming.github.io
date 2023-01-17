@@ -31,6 +31,6 @@ function TermsPage({location}) {
   )
 }
 
-export const Head = () => <Seo title="Terms and Conditions" />
+export const Head = () => <Seo title="Terms and Conditions" breadcrumbs={{ "Home": "https://about.fairfieldprogramming.org/", "Terms and Conditions": "https://about.fairfieldprogramming.org/terms" }} />
 
 export default TermsPage

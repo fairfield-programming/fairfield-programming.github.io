@@ -113,6 +113,6 @@ function ImpactPage({location}) {
   )
 }
 
-export const Head = () => <Seo title="Impact" />
+export const Head = () => <Seo title="Impact"  breadcrumbs={{ "Home": "https://about.fairfieldprogramming.org/", "Impact": "https://about.fairfieldprogramming.org/impact" }} />
 
 export default ImpactPage

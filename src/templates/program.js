@@ -63,6 +63,7 @@ const Program = ({ pageContext }) => {
 
 export const Head = ({ pageContext }) => <Seo 
     title={`${pageContext.title}`} 
-    description={pageContext.description} />
+    description={pageContext.description}
+    breadcrumbs={{ "Home": "https://about.fairfieldprogramming.org/", "Programs": "https://about.fairfieldprogramming.org/programs", [pageContext.title]: `https://about.fairfieldprogramming.org/programs/${pageContext.slug}` }}  />
 
 export default Program

@@ -37,6 +37,6 @@ function PressPage({location}) {
   )
 }
 
-export const Head = () => <Seo title="Press and Media" />
+export const Head = () => <Seo title="Legal Documents" breadcrumbs={{ "Home": "https://about.fairfieldprogramming.org/", "Legal Documents": "https://about.fairfieldprogramming.org/documents" }} />
 
 export default PressPage

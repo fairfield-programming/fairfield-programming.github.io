@@ -90,7 +90,7 @@ function IndexPage({location}) {
   )
 }
 
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="Home" breadcrumbs={{ "Home": "https://about.fairfieldprogramming.org/" }} />
 
 export default IndexPage
 

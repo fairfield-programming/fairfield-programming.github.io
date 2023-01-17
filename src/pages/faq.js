@@ -89,7 +89,7 @@ export const Head = () => {
     })
   };
 
-  return <Seo title="Frequently Asked Questions" children={<>
+  return <Seo title="Frequently Asked Questions" breadcrumbs={{ "Home": "https://about.fairfieldprogramming.org/", "Frequently Asked Questions": "https://about.fairfieldprogramming.org/faq" }} children={<>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(faqStructuredData)}} />
   </>} />
 

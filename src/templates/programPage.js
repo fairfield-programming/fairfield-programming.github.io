@@ -67,6 +67,7 @@ const Program = ({ pageContext }) => {
 
 export const Head = ({ pageContext }) => <Seo 
     title={`${pageContext.title}`} 
-    description={pageContext.description} />
+    description={pageContext.description} 
+    />
 
 export default Program

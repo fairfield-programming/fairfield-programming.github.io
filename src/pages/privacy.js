@@ -32,6 +32,6 @@ function PrivacyPage({location}) {
   )
 }
 
-export const Head = () => <Seo title="Privacy Policy" />
+export const Head = () => <Seo title="Privacy Policy" breadcrumbs={{ "Home": "https://about.fairfieldprogramming.org/", "Privacy Policy": "https://about.fairfieldprogramming.org/privacy" }}  />
 
 export default PrivacyPage

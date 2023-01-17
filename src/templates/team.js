@@ -32,6 +32,7 @@ const Team = ({ pageContext }) => {
 export const Head = ({ pageContext }) => <Seo 
     title={`${pageContext.first} ${pageContext.last}`} 
     description={pageContext.biography} 
-    image={pageContext.photo} />
+    image={pageContext.photo} 
+    breadcrumbs={{ "Home": "https://about.fairfieldprogramming.org/", "Our Team": "https://about.fairfieldprogramming.org/team", [`${pageContext.first} ${pageContext.last}`]: `https://about.fairfieldprogramming.org/team/${pageContext.slug}` }} />
 
 export default Team

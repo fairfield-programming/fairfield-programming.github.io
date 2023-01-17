@@ -7,10 +7,30 @@
 
 import * as React from "react"
 
-function Seo({ description, title, children, image }) {
+function Seo({ description, title, children, image, breadcrumbs }) {
   
   const site = require('../../gatsby-config')
   const metaDescription = description || site.siteMetadata.description
+
+  if (breadcrumbs == undefined) breadcrumbs = {}
+
+  const breadcrumbStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      Object.keys(breadcrumbs).map((i, n) => {
+        
+        const val = breadcrumbs[i]
+        
+        return {
+          "@type": "ListItem",
+          "position": n + 1,
+          "name": i,
+          "item": val,
+        };
+      })
+    ]
+  };
 
   return (
     <>
@@ -24,6 +44,7 @@ function Seo({ description, title, children, image }) {
       <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}></script>
       {children}
     </>
   )

@@ -16,7 +16,7 @@ const Layout = ({ children,location='',crumbLabel }) => {
   return (
     <>
       <Header />
-      <Breadcrumb location={location} crumbLabel={crumbLabel} />
+      {/* <Breadcrumb location={location} crumbLabel={crumbLabel} /> */}
       <main>{children}</main>
       <Footer />
     </>

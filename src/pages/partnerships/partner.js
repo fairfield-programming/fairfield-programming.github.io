@@ -91,6 +91,6 @@ function PartnerPage({location}) {
   )
 }
 
-export const Head = () => <Seo title="Mission" />
+export const Head = () => <Seo title="Partner with Us" breadcrumbs={{ "Home": "https://about.fairfieldprogramming.org/", "Partnerships": "https://about.fairfieldprogramming.org/partnerships", "Partner with Us": "https://about.fairfieldprogramming.org/partnerships/partner" }}  />
 
 export default PartnerPage

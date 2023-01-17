@@ -48,6 +48,7 @@ const Partner = ({ pageContext }) => {
 
 export const Head = ({ pageContext }) => <Seo 
     title={`${pageContext.title}`} 
-    description={pageContext.description} />
+    description={pageContext.description} 
+    breadcrumbs={{ "Home": "https://about.fairfieldprogramming.org/", "Partners": "https://about.fairfieldprogramming.org/partners", [pageContext.title]: `https://about.fairfieldprogramming.org/partners/${pageContext.slug}` }} />
 
 export default Partner

@@ -23,7 +23,8 @@
         "work": [
             0,
             1,
-            4
+            4,
+            6
         ]
     },
     {
@@ -71,17 +72,6 @@
         "works": "Manages the Vault project",
         "work": [
             5
-        ]
-    },
-    {
-        "first": "Aadya",
-        "last": "Pai",
-        "email": "paia@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/121694301?v=4",
-        "biography": "Born on June 2nd, 2006, Aadya “Aadi” Pai is an FPA volunteer managing some of the FPA’s work with partner companies. Working out of Darien, CT, he joined the FPA with hopes of bringing an understanding of coding to even more students across the world.",
-        "works": "Aadi is currently managing the FPA’s partnership with Preponderous Software.",
-        "work": [
-            6
         ]
     }
 ]

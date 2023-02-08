@@ -84,5 +84,16 @@
         "work": [
             7
         ]
+    },
+    {
+        "first": "Alain",
+        "last": "Prestige",
+        "email": "prestigea@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/11784116?v=4",
+        "biography": "Alain Prestige is an FPA volunteer currently living in Liège, Belgium. He currently is the lead developer on the FPA License List, building out a registry of all the open-source, source-available, and commercial licenses the digital world has.",
+        "works": "As the lead on the License List project, Alain has been steadily building an open-access API along with a standard (available on The Vault). Together, these will revolutionize the ways that licenses are queried and used.",
+        "work": [
+            4
+        ]
     }
 ]

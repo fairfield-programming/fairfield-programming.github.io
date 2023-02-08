@@ -95,5 +95,27 @@
         "work": [
             4
         ]
+    },
+    {
+        "first": "Siddhi",
+        "last": "Singh",
+        "email": "singhs@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
+        "biography": "",
+        "works": "As one of the editors of the FPA Learning Videos, Siddhi has deeply informed the style of the FPA Learning Content. With her important input and view on the editing process, Siddhi is a core member of the editing team.",
+        "work": [
+            6
+        ]
+    },
+    {
+        "first": "Shubh",
+        "last": "Varshney",
+        "email": "varshneys@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
+        "biography": "",
+        "works": "As an editor of the FPA Learning Videos, Shubh is an integral member of the production process.",
+        "work": [
+            6
+        ]
     }
 ]

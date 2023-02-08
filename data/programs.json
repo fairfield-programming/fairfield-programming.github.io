@@ -108,6 +108,12 @@
             "title": "FPA Games",
             "description": "A Partnership between Preponderous Software, the FPA, and Unity Software to create Open Source Games and learning materials.",
             "since": "2022-12-18"
+        },
+        {
+            "slug": "fpa-learn",
+            "title": "The Learning Platform",
+            "description": "A free and open-source learning platform that enables anyone to learn computer-related ideas: programming, electrical engineering, and mathematics.",
+            "since": "2023-02-8"
         }
     ]
 }

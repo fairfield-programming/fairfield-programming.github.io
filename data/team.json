@@ -69,9 +69,20 @@
         "email": "lih@fairfieldprogramming.org",
         "photo": "https://avatars.githubusercontent.com/u/96609857?v=4",
         "biography": "Hanzi Li is an FPA volunteer who was born on February 17, 2004 and presently resides in Montréal, Québec, Canada.",
-        "works": "Manages the Vault project",
+        "works": "As the main manager of the FPA Vault, Hanzi oversees the standardization of many FPA ideas and also approves third-party submissions.",
         "work": [
             5
+        ]
+    },
+    {
+        "first": "Prashnta",
+        "last": "Pandey",
+        "email": "pandeyp@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/83771967?v=4",
+        "biography": "Prashnta Pandey is an FPA volunteer currently living in Kathmandu, Nepal. He is currently working as the lead developer behind the FPA Learning Platform, a tool that will help revolutionize access to learning resources.",
+        "works": "As the lead developer behind the FPA Learning Platform, Prashnta oversees all aspects of developing a solid foundation in which future learning systems will be built.",
+        "work": [
+            7
         ]
     }
 ]

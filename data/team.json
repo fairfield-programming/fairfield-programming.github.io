@@ -1,5 +1,4 @@
-[
-    {
+[{
         "first": "William",
         "last": "McGonagle",
         "email": "mcgonaglew@fairfieldprogramming.org",
@@ -72,6 +71,17 @@
         "works": "Manages the Vault project",
         "work": [
             5
+        ]
+    },
+    {
+        "first": "Alain",
+        "last": "Prestige",
+        "email": "prestigea@fairfieldprogramming.org",
+        "photo": "https://niprestige.github.io/images/Alain.jpg",
+        "biography": "Passionate about solving problems and helping people around me using technology and science, I am a fan of Marvel movies and inspired by Iron man.",
+        "works": "Developer, author, scientist.",
+        "work": [
+            6
         ]
     }
 ]

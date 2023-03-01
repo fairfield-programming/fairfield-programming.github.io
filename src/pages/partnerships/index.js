@@ -53,11 +53,9 @@ function MissionPage({location}) {
         </div>
       </section>
       <section>
-        <div className="max-w-6xl mx-auto pb-16 px-4 flex">
-          <div className="w-2/3">
+        <div class="mx-auto max-w-6xl pb-16 px-4">
             <h2 className="font-bold text-4xl mb-4" id="about">Our Partners</h2>
-            {partnerData.description?.map(text => <p className="mb-2 text-lg">{text}</p>)}
-          </div>
+            {partnerData.description?.map(text => <p className="text-lg mb-2 max-w-3xl">{text}</p>)}
         </div>
       </section>
       <section>

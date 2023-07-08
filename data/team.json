@@ -4,7 +4,7 @@
         "last": "McGonagle",
         "email": "mcgonaglew@fairfieldprogramming.org",
         "photo": "https://avatars.githubusercontent.com/u/19496353?v=4",
-        "biography": "William McGonagle is one of the co-founders of the FPA. Born on September 8th, 2004, he currently resides in Bridgeport, Connecticut near the headquarters of the FPA. After seeing how income disparity contributes to a shortage of education, he decided that there needed to be more opportunities for learning. He had discussed the problem with a friend, Neil Chaudhari, and within a few weeks, the two were working on building the FPA.",
+        "biography": "William McGonagle is a Co-Founder, President, and Board Member of the FPA. Born on September 8th, 2004, he currently resides in Bridgeport, Connecticut near the headquarters of the FPA. After seeing how income disparity contributes to a shortage of education, he decided that there needed to be more opportunities for learning. He had discussed the problem with a friend, Neil Chaudhari, and within a few weeks, the two were working on building the FPA.",
         "works": "As the current CEO of the FPA, William mostly watches over general management of all projects while also trying to expand to new areas. Many of the projects created by William have been described as 'risky' and 'bold' by none-other than Neil Chaudhari himself.",
         "work": [
             0,
@@ -18,7 +18,7 @@
         "last": "Chaudhari",
         "email": "chaudharin@fairfieldprogramming.org",
         "photo": "https://avatars.githubusercontent.com/u/30356902?v=4",
-        "biography": "Neil Chaudhari is one of the co-founders of the FPA. After discussing how income disparity in our county contributes to a shortage of education, he and William McGonagle began to work on the FPA.",
+        "biography": "Neil Chaudhari is a Co-Founder, CEO, and VP of the FPA.  After seeing how income disparity contributes to a shortage of education, he decided that there needed to be more opportunities for learning. He had discussed the problem with a friend, William McGonagle, and within a few weeks, the two were working on building the FPA. Neil has a background in Data Science and Artificial Intelligence, and is conducting research on it at the moment.",
         "works": "As the current President of the FPA, Neil mostly watches over the management of all of the FPA’s projects, with a focus on FPA Charter and Learning.",
         "work": [
             0,
@@ -28,23 +28,11 @@
         ]
     },
     {
-        "first": "Charles",
-        "last": "Ferragu",
-        "email": "ferraguc@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
-        "biography": "Charles Ferragu is an FPA board member who was born on November 13, 2006 and presently resides in Southport, Connecticut. When he learned that his dear friends William and Neil were launching a non-profit to help address the education shortfall, he decided to join and assist expand the organization with the hopes of impacting many lives.",
-        "works": "Works mainly with the charter-outreach and charter-events.",
-        "work": [
-            0,
-            1
-        ]
-    },
-    {
         "first": "Jamie",
         "last": "Davis",
         "email": "davisj@fairfieldprogramming.org",
         "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
-        "biography": "Jamie Davis is an FPA volunteer who has been working with the Charter program since its inception. He and Tristan Ibrahimi have worked to build the charter program through community building with schools and organizations that share similar missions with the FPA.",
+        "biography": "Jamie Davis is an FPA volunteer who has been working with the Charter program since its inception. He and Tristan Ebrahimi have worked to build the charter program through community building with schools and organizations that share similar missions with the FPA.",
         "works": "As one of the regional managers for the FPA Charter program, Jamie is mostly involved in Charter Events and Charter Outreach programs.",
         "work": [
             0,

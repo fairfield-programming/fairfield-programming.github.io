@@ -18,7 +18,8 @@ function MissionPage({data,location}) {
             </h1>
 
             <p class="mt-4 text-lg">
-              We offer dozens of different programs, all directed towards teaching children and adults how to program and make the most of the technology that surrounds us. Our efforts include corporate partnerships, school and university charters, digital resources, and support for the open-source ecosystem.
+              {/*We offer dozens of different programs, all directed towards teaching children and adults how to program and make the most of the technology that surrounds us. Our efforts include corporate partnerships, school and university charters, digital resources, and support for the open-source ecosystem.*/}
+              The Fairfield Programming Association (FPA) is a student-run non-profit organization dedicated to providing youth with computer science educational opportunities. As the technology industry grows and to encapsulate every facet of our day to day life, computer literacy becomes more of a necessity to thrive. Computer science teaches analytical thinking and problem solving, skills which are imperative to any student’s success. The mission of the FPA is to advance computer literacy and provide underserved students of all ages the resources necessary to rise as our next generation of engineers. The FPA strives to pass on the passion we have for computer science to our students, allowing that passion to blossom through each students’ career.
             </p>
 
             <div class="mt-8 flex flex-wrap justify-center gap-4">

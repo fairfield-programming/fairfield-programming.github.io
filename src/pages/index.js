@@ -35,18 +35,10 @@ function IndexPage({location}) {
               </Link>
 
               <Link
-                class="block w-full rounded bg-active px-12 py-3 text-sm font-medium text-white shadow hover:bg-active focus:outline-none focus:ring active:bg-active sm:w-auto"
+                class="block w-full rounded px-12 py-3 text-sm font-medium text-active shadow hover:text-active focus:outline-none focus:ring active:text-active sm:w-auto""
                 to="/mission"
               >
                 Our Mission
-              </Link>
-
-
-              <Link
-                class="block w-full rounded bg-active px-12 py-3 text-sm font-medium text-white shadow hover:bg-active focus:outline-none focus:ring active:bg-active sm:w-auto"
-                to="/impact"
-              >
-                Our Impact
               </Link>
             </div>
           </div>

@@ -35,7 +35,7 @@ function IndexPage({location}) {
               </Link>
 
               <Link
-                class="block w-full rounded px-12 py-3 text-sm font-medium text-active shadow hover:text-active focus:outline-none focus:ring active:text-active sm:w-auto""
+                class="block w-full rounded px-12 py-3 text-sm font-medium text-active shadow hover:text-active focus:outline-none focus:ring active:text-active sm:w-auto"
                 to="/mission"
               >
                 Our Mission

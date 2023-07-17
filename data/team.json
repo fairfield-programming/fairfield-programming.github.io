@@ -49,18 +49,6 @@
         "work": []
     },
     {
-        "first": "Tristan",
-        "last": "Ebrahimi",
-        "email": "ebrahimit@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
-        "biography": "Tristan Ebrahimi is an FPA volunteer closely connected to the Charter program as he has been working on it since its beginning. He and Jamie Davis have worked hard to craft it into the community-driven, colaborative, and supportive program that it is today.",
-        "works": "As one of the regional managers for the FPA Charter program, Tristan is mostly involved in Charter Events and Charter Outreach programs.",
-        "work": [
-            0,
-            1
-        ]
-    },
-    {
         "first": "Aaron",
         "last": "Hopper",
         "email": "hoppera@fairfieldprogramming.org",
@@ -79,6 +67,36 @@
         "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
         "biography": "Lachlan McCracken is the Head of Charter Outreach for the FPA. She is working to partner the FPA with community organizations that would not otherwise offer coding programs.",
         "works": "As the head of the FPA Charter Outreach Program, Lachlan is not only involved in outreach but also in charter events.",
+        "work": [
+            0,
+            1
+        ]
+    },
+    {
+        "first": "Uri",
+        "last": "Moon-Rosha",
+        "email": "moonroshau@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
+        "biography": "",
+        "works": "",
+        "work": []
+    },
+    {
+        "first": "Sankalp",
+        "last": "Ojha",
+        "email": "sankalpojha@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
+        "biography": "",
+        "works": "",
+        "work": []
+    },
+    {
+        "first": "Tristan",
+        "last": "Ebrahimi",
+        "email": "ebrahimit@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
+        "biography": "Tristan Ebrahimi is an FPA volunteer closely connected to the Charter program as he has been working on it since its beginning. He and Jamie Davis have worked hard to craft it into the community-driven, colaborative, and supportive program that it is today.",
+        "works": "As one of the regional managers for the FPA Charter program, Tristan is mostly involved in Charter Events and Charter Outreach programs.",
         "work": [
             0,
             1

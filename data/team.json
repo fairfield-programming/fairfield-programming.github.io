@@ -73,18 +73,18 @@
         ]
     },
     {
-        "first": "Uri",
-        "last": "Moon-Rosha",
-        "email": "moonroshau@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
-        "biography": "",
-        "works": "",
-        "work": []
-    },
-    {
         "first": "Sankalp",
         "last": "Ojha",
         "email": "sankalpojha@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/139890728?v=4",
+        "biography": "Sankalp Ojha is a FPA member from St. Luke’s School. He is the founder and chair of the St. Luke’s charter. He decided to join the cause after seeing how income disparity contributes to a shortage of education. His mission is to bring coding to underserved communities",
+        "works": "Sankalp is currently working on charter program at the St Luke's school as well as educating students in India",
+        "work": []
+    },
+    {
+        "first": "Uri",
+        "last": "Moon-Rosha",
+        "email": "moonroshau@fairfieldprogramming.org",
         "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
         "biography": "",
         "works": "",

@@ -3,9 +3,11 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-function PressPage({location}) {
-    const releases = require('../../data/general.json').press
+import Article from "../components/article"
 
+function PressPage({location}) {
+    //const releases = require('../../data/general.json').press
+    const releases = require('../../data/articles.json')
   return (
     <Layout location={location} crumbLabel="Press">
         <section>
@@ -26,6 +28,7 @@ function PressPage({location}) {
         </section>
         <section>
             <div className="max-w-6xl mx-auto pb-16 px-4 flex">
+                {/*
                 <div class="space-y-4 w-full">
                     <ul>
                         { 
@@ -33,6 +36,11 @@ function PressPage({location}) {
                         }
                     </ul>
                 </div>
+                    */}
+                <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mt-6">
+                    {releases
+                    .map(item => Article(item))}
+                </div>    
             </div>
         </section>
     </Layout>

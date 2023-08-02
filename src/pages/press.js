@@ -12,7 +12,7 @@ function PressPage({location}) {
     <Layout location={location} crumbLabel="Press">
         <section>
             <div
-            class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"
+            class="mx-auto max-w-screen-xl px-4 py-20 lg:flex  lg:items-center"
             >
                 <div class="mx-auto max-w-4xl text-center">
                     <h1 class="text-3xl font-extrabold sm:text-5xl">

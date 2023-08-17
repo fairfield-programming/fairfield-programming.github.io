@@ -14,6 +14,7 @@ function ImpactPage({location}) {
   let childrenImpact = generalData.impact.children;
   let adultImpact = generalData.impact.adults;
 
+  let economicImpact = impactNumber * (100008.00 - 81847.00);
 
   return (
     <Layout location={location} crumbLabel="Impact">
@@ -103,6 +104,25 @@ function ImpactPage({location}) {
                 </p>
                 <p class="mt-4 text-lg">
                   adults have learned since September 2022.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-active px-4 py-16 text-white">
+        <div
+          class="mx-auto max-w-screen-xl px-4 lg:flex  lg:items-center"
+        >
+          <div class="mx-auto max-w-5xl text-center">
+            <h2 className="text-xl uppercase font-bold tracking-wider mb-4">Our Economic Impact</h2>
+            <div className="w-full flex flex-col md:flex-row gap-8">
+              <div className="w-full h-full flex align-center justify-center flex-col">
+                <p class="text-4xl font-extrabold sm:text-6xl">
+                  {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(economicImpact)}
+                </p>
+                <p class="mt-4 text-lg">
+                  of predicted global wealth generated since 2022.
                 </p>
               </div>
             </div>

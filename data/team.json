@@ -40,15 +40,6 @@
         ]
     },
     {
-        "first": "Will",
-        "last": "Drapkin",
-        "email": "willdrapkin@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/111072674?v=4",
-        "biography": "Will Drapkin is the CFO of the FPA. He is the cofounder and co-chair of the St. Luke’s charter. His mission is to bring coding outreach to underserved communities.",
-        "works": "Currently Will is working on outreach and funding",
-        "work": []
-    },
-    {
         "first": "Aaron",
         "last": "Hopper",
         "email": "hoppera@fairfieldprogramming.org",
@@ -73,12 +64,33 @@
         ]
     },
     {
+        "first": "Owen",
+        "last":"Simon",
+        "email":"simono@fairfieldprogramming.org",
+        "photo":"https://avatars.githubusercontent.com/u/46246129?v=4",
+        "biography":"Owen Simon is an FPA volunteer and original member who has helped build and improve the teaching force of the program since day one. Many young future coders were captivated by his distinctly enthusiastic teaching - and their success captivated him. He fell in love with the rewarding work, and became Head of Curriculum, using his experience in Python, Java, and more to lead the development of material aimed for those around the world who would otherwise not receive it. He plans to record content for those online, and continue teaching in person at schools and libraries around Fairfield County in his efforts to help fulfill the mission of the FPA. ",
+        "works":"As head of the FPA Curriculum Development, Owen Simon writes educational curricula for FPA Learn and Game Development",
+        "work": [
+            0,
+            1
+        ]
+    },
+    {
         "first": "Sankalp",
         "last": "Ojha",
         "email": "sankalpojha@fairfieldprogramming.org",
         "photo": "https://avatars.githubusercontent.com/u/139890728?v=4",
         "biography": "Sankalp Ojha is a FPA member from St. Luke’s School. He is the founder and chair of the St. Luke’s charter. He decided to join the cause after seeing how income disparity contributes to a shortage of education. His mission is to bring coding to underserved communities",
         "works": "Sankalp is currently working on charter program at the St Luke's school as well as educating students in India",
+        "work": []
+    },
+    {
+        "first": "Will",
+        "last": "Drapkin",
+        "email": "willdrapkin@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/111072674?v=4",
+        "biography": "Will Drapkin is the CFO of the FPA. He is the cofounder and co-chair of the St. Luke’s charter. His mission is to bring coding outreach to underserved communities.",
+        "works": "Currently Will is working on outreach and funding",
         "work": []
     },
     {

@@ -28,6 +28,24 @@
         ]
     },
     {
+        "first": "Sankalp",
+        "last": "Ojha",
+        "email": "sankalpojha@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/139890728?v=4",
+        "biography": "Sankalp Ojha is the co-COO of the FPA. He also serves as the treasurer for the FPA’s committee. He is from St. Luke’s School. He is the founder and chair of the St. Luke’s charter. He decided to join the cause after seeing how income disparity contributes to a shortage of education. His mission is to bring coding to underserved communities.",
+        "works": "Sankalp is currently working on charter program, unity contract, and Georgetown merger. He also runs his charter at the St Luke's school as well as educating students in India.",
+        "work": []
+    },
+    {
+        "first": "Will",
+        "last": "Drapkin",
+        "email": "willdrapkin@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/111072674?v=4",
+        "biography": "Will Drapkin is the CFO of the FPA. He is the cofounder and co-chair of the St. Luke’s charter. His mission is to bring coding outreach to underserved communities.",
+        "works": "Currently Will is working on outreach and funding",
+        "work": []
+    },
+    {
         "first": "Jamie",
         "last": "Davis",
         "email": "davisj@fairfieldprogramming.org",
@@ -74,24 +92,6 @@
             0,
             1
         ]
-    },
-    {
-        "first": "Sankalp",
-        "last": "Ojha",
-        "email": "sankalpojha@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/139890728?v=4",
-        "biography": "Sankalp Ojha is the co-COO of the FPA. He also serves as the treasurer for the FPA’s committee. He is from St. Luke’s School. He is the founder and chair of the St. Luke’s charter. He decided to join the cause after seeing how income disparity contributes to a shortage of education. His mission is to bring coding to underserved communities.",
-        "works": "Sankalp is currently working on charter program, unity contract, and Georgetown merger. He also runs his charter at the St Luke's school as well as educating students in India.",
-        "work": []
-    },
-    {
-        "first": "Will",
-        "last": "Drapkin",
-        "email": "willdrapkin@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/111072674?v=4",
-        "biography": "Will Drapkin is the CFO of the FPA. He is the cofounder and co-chair of the St. Luke’s charter. His mission is to bring coding outreach to underserved communities.",
-        "works": "Currently Will is working on outreach and funding",
-        "work": []
     },
     {
         "first": "Uri",

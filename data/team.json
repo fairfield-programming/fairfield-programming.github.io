@@ -58,6 +58,31 @@
         ]
     },
     {
+        "first": "Jamie",
+        "last": "Davis",
+        "email": "davisj@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
+        "biography": "Jamie Davis is an FPA volunteer and original member who has been working with the Charter program since its inception. He and Tristan Ebrahimi have worked to build the charter program through community building with schools and organizations that share similar missions with the FPA. He has helped the FPA achieve its mission by conducting outreach, writing educational materials, and personally teaching kids in libraries and schools around Fairfield County.",
+        "works": "Jamie is currently hard at work building up the FPA’s charter program by building relationships with schools around the world.",
+        "work": [
+            0,
+            1
+        ]
+    },
+    {
+        "first": "Nina",
+        "last": "Lomigora",
+        "email": "lomigoran@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
+        "biography": "Nina Lomigora is the co-head of Charter Outreach for FPA. She is working alongside Lachlan McCracken to partner FPA with community organizations to give students an opportunity to learn to code that they would not have otherwise. ",
+        "works": "Nina is currently hard at work building up the FPA’s charter program by building relationships with schools around the world.",
+        "work": [
+            0,
+            1
+        ]
+
+    },
+    {
         "first": "Owen",
         "last":"Simon",
         "email":"simono@fairfieldprogramming.org",
@@ -77,18 +102,6 @@
         "biography": "",
         "works": "",
         "work": []
-    },
-    {
-        "first": "Jamie",
-        "last": "Davis",
-        "email": "davisj@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
-        "biography": "Jamie Davis is an FPA volunteer and original member who has been working with the Charter program since its inception. He and Tristan Ebrahimi have worked to build the charter program through community building with schools and organizations that share similar missions with the FPA. He has helped the FPA achieve its mission by conducting outreach, writing educational materials, and personally teaching kids in libraries and schools around Fairfield County.",
-        "works": "Jamie is currently hard at work building up the FPA’s charter program by building relationships with schools around the world.",
-        "work": [
-            0,
-            1
-        ]
     },
     {
         "first": "Aaron",

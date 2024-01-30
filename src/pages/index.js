@@ -81,9 +81,9 @@ function IndexPage({location}) {
       </section>
       <section className="bg-white w-full px-16 py-8 flex align-center justify-center">
         <div class="text-center max-w-xl">
-          <h2 className="text-xl uppercase text-black font-bold tracking-wider mb-4">From Our President</h2>
-          <p className="text-3xl text-black font-light">"I cannot give enough thanks to our sponsors, supporters, and those who believed in us from day one. You are what make the FPA special."</p>
-          <p className="text-xl font-black text-black mt-8 uppercase">Neil Chaudhari<br /><b class="text-xl">Co-Founder and CEO</b></p>
+          <h2 className="text-xl uppercase text-black font-bold tracking-wider mb-4">Why We Teach</h2>
+          <p className="text-3xl text-black font-light">"Part of my joy in learning is that it puts me in a position to teach; nothing, however outstanding and however helpful, will ever give me any pleasure if the knowledge is for my benefit alone."</p>
+          <p className="text-xl font-black text-black mt-8 uppercase">Lucius Seneca<br /><b class="text-xl">Stoic Philosopher</b></p>
         </div>
       </section>
     </Layout>

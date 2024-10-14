@@ -28,6 +28,20 @@
         ]
     },
     {
+        "first": "Jamie",
+        "last": "Davis",
+        "email": "davisj@fairfieldprogramming.org",
+        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
+        "biography": "Jamie Davis is the president of GFA’s charter and board member currently leading volunteering efforts across Fairfield County. Having worked with the FPA since its inception, he has run classes in schools and libraries across the country. A passionate math and computer science student, Jamie is currently leading a free tutoring initiative to make education more equitable.",
+        "works": "Jamie is currently leading a free tutoring initiative to make education more equitable. In addition, Jamie is currently hard at work building up the FPA’s charter program by building relationships with schools around the world.",
+        "work": [
+            0,
+            1,
+            4,
+            6
+        ]
+    },
+    {
         "first": "Sankalp",
         "last": "Ojha",
         "email": "sankalpojha@fairfieldprogramming.org",
@@ -52,18 +66,6 @@
         "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
         "biography": "Lachlan McCracken is the Head of Charter Outreach for the FPA. She is working to partner the FPA with community organizations that would not otherwise offer coding programs.",
         "works": "As the head of the FPA Charter Outreach Program, Lachlan is not only involved in outreach but also in charter events.",
-        "work": [
-            0,
-            1
-        ]
-    },
-    {
-        "first": "Jamie",
-        "last": "Davis",
-        "email": "davisj@fairfieldprogramming.org",
-        "photo": "https://avatars.githubusercontent.com/u/96844187?v=4",
-        "biography": "Jamie Davis is an FPA volunteer and original member who has been working with the Charter program since its inception. He and Tristan Ebrahimi have worked to build the charter program through community building with schools and organizations that share similar missions with the FPA. He has helped the FPA achieve its mission by conducting outreach, writing educational materials, and personally teaching kids in libraries and schools around Fairfield County.",
-        "works": "Jamie is currently hard at work building up the FPA’s charter program by building relationships with schools around the world.",
         "work": [
             0,
             1
